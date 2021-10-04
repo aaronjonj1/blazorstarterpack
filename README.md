@@ -1,6 +1,6 @@
 # Blazor Starter Application
 
-9/20 I said cout << "Hello World!" << endl; to Blazor.
+9/20 I said "Hello World" to my Blazor application.
 <br />
 9/27 Edited website by getting working URL, introduction, and IPO calculator.
 <br />
