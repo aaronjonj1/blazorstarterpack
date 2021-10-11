@@ -26,3 +26,6 @@ There will be more features to come along as well but it's still a work in devel
 10/04 Added todo function on Blazor website and edited icons.
 <br />
 10/11 My official project for COP 3003.
+
+# Website Link
+https://mango-beach-0ae2a360f.azurestaticapps.net/
