@@ -1,0 +1,38 @@
+@page "/addition"
+
+<h1>Addition</h1>
+
+<p>First number </p>
+
+<input @bind="InputString " />
+
+<p>Second number </p>
+
+<input @bind="InputString2 " />
+
+<button class="btn btn-primary" @onclick="DoProcessing">Do it</button>
+
+<p>Output: @OutputString </p>
+
+@code
+
+{
+
+    private string InputString { get; set; }
+
+    private string OutputString { get; set; }
+
+    private void DoProcessing()
+
+    {
+
+        double num = double.Parse(InputString);
+        double num2 = double.Parse(InputString2);
+
+        num = num + num2;
+
+        OutputString = num.ToString();
+
+    }
+
+}
