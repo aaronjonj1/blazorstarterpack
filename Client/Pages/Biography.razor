@@ -1,0 +1,50 @@
+@page "/biography"
+
+<h1>Biography</h1>
+
+<p>First number </p>
+
+<input @bind="InputString " />
+
+<p>Second number </p>
+
+<input @bind="InputString2 " />
+
+<button class="btn btn-primary" @onclick="DoProcessing">Do it</button>
+
+<p>Output: @OutputString </p>
+
+@code
+
+{
+
+class Car
+{
+    public:
+    string make;
+    string model;
+    string color;
+    string year;
+
+    void print()
+    {
+        std::cout << "Make: " << make << endl;
+        std::cout << "Model: " << model << endl;
+        std::cout << "Color: " << color << endl;
+        std::cout << "Year: " << year << endl;
+    }
+    
+};
+
+int main()
+{
+    Car myCar;
+    myCar.make = "Toyota";
+    myCar.model = "Corolla";
+    myCar.color = "Blue";
+    myCar.year = "2018";
+
+    myCar.print();
+    return 0;
+
+}
