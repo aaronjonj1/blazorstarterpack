@@ -20,33 +20,44 @@
 
 class Car
 {
-    public:
-    string make;
-    string model;
-    string color;
-    string year;
-
-    void print()
-    {
-        std::cout << "Make: " << make << endl;
-        std::cout << "Model: " << model << endl;
-        std::cout << "Color: " << color << endl;
-        std::cout << "Year: " << year << endl;
-    }
-    
-};
-
-int main()
+    public class Car
 {
-    Car myCar;
-    myCar.make = "Toyota";
-    myCar.model = "Corolla";
-    myCar.color = "Blue";
-    myCar.year = "2018";
+	public string make = "";
+	public string model = "";
+	public string color = "";
+	public string year = "";
 
-    myCar.print();
-    return 0;
+	public void print()
+	{
+		Console.Write("Make: ");
+		Console.Write(make);
+		Console.Write("\n");
+		Console.Write("Model: ");
+		Console.Write(model);
+		Console.Write("\n");
+		Console.Write("Color: ");
+		Console.Write(color);
+		Console.Write("\n");
+		Console.Write("Year: ");
+		Console.Write(year);
+		Console.Write("\n");
+	}
 
+}
+
+public static class GlobalMembers
+{
+	internal static void Main()
+	{
+		Car myCar = new Car();
+		myCar.make = "Toyota";
+		myCar.model = "Corolla";
+		myCar.color = "Blue";
+		myCar.year = "2018";
+
+		myCar.print();
+
+	}
 }
 
 }
