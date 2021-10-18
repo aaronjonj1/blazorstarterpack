@@ -1,12 +1,15 @@
 @page "/ipo"
 
-<h1 style="color:green;">IPO Doubler</h1>
+<h1 style="color:black;">IPO Doubler</h1>
 
 <p>Input prompt </p>
 
 <input @bind="InputString " />
 
-<button class="btn btn-primary" @onclick="DoProcessing">Do it</button>
+<button class="btn btn-primary" style="background-color:limegreen" @onclick="DoDouble">Double</button>
+<button class="btn btn-primary" style="background-color:aqua" @onclick="DoTriple">Triple</button>
+<button class="btn btn-primary" style="background-color:lavender" @onclick="DoSquared">Squared</button>
+<button class="btn btn-primary" style="background-color:hotpink" @onclick="DoCubed">Cubed</button>
 
 <p>Output: @OutputString </p>
 
@@ -18,13 +21,49 @@
 
     private string OutputString { get; set; }
 
-    private void DoProcessing()
+    private void DoDouble()
 
     {
 
         double num = double.Parse(InputString);
 
         num = num * 2;
+
+        OutputString = num.ToString();
+
+    }
+    
+     private void DoTriple()
+
+    {
+
+        double num = double.Parse(InputString);
+
+        num = num * 3;
+
+        OutputString = num.ToString();
+
+    }
+
+    private void DoSquared()
+
+    {
+
+        double num = double.Parse(InputString);
+
+        num = num * num;
+
+        OutputString = num.ToString();
+
+    }
+
+     private void DoCubed()
+
+    {
+
+        double num = double.Parse(InputString);
+
+        num = num * num * num;
 
         OutputString = num.ToString();
 
