@@ -1,0 +1,82 @@
+@page "/subtraction"
+
+<h1>Subtraction</h1>
+
+<p>First number </p>
+
+<input @bind="InputString " />
+
+<p>Second number </p>
+
+<input @bind="InputString2 " />
+
+<button class="btn btn-primary" @onclick="DoAddition">Addition</button>
+<button class="btn btn-primary" @onclick="DoSubtraction">Subtraction</button>
+<button class="btn btn-primary" @onclick="DoMulitplication">Multiplication</button>
+<button class="btn btn-primary" @onclick="DoDivision">Division</button>
+
+<p>Output: @OutputString </p>
+
+@code
+
+{
+
+    private string InputString { get; set; }
+
+    private string InputString2 { get; set; }
+
+    private string OutputString { get; set; }
+
+    private void DoAddition()
+
+    {
+
+        double num = double.Parse(InputString);
+        double num2 = double.Parse(InputString2);
+
+        num = num + num2;
+
+        OutputString = num.ToString();
+
+    }
+
+    private void DoSubtraction()
+
+    {
+
+        double num = double.Parse(InputString);
+        double num2 = double.Parse(InputString2);
+
+        num = num - num2;
+
+        OutputString = num.ToString();
+
+    }
+
+    private void DoMultiplication()
+
+    {
+
+        double num = double.Parse(InputString);
+        double num2 = double.Parse(InputString2);
+
+        num = num * num2;
+
+        OutputString = num.ToString();
+
+    }
+
+    private void DoDivision()
+
+    {
+
+        double num = double.Parse(InputString);
+        double num2 = double.Parse(InputString2);
+
+        num = num / num2;
+
+        OutputString = num.ToString();
+
+    }
+
+}
