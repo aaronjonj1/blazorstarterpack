@@ -33,8 +33,11 @@
     private string OutputHeight { get; set; }
     private string OutputWeight { get; set; }
 
+    public void DoProcessing()
+{}
 
-    static int Main(string[] args)
+
+    static string Main()
     {
         Biography Aaron = new Biography();
         Aaron.name = "Aaron Jones";
@@ -43,11 +46,11 @@
         Aaron.height = "177 cm";
         Aaron.weight = "88 kg";
 
-        Aaron.OutputName = Console.WriteLine(Aaron.name);
-        Aaron.OutputAge = Console.WriteLine(Aaron.age);
-        Aaron.OutputGender = Console.WriteLine(Aaron.gender);
-        Aaron.OutputHeight = Console.WriteLine(Aaron.height);
-        Aaron.OutputWeight = Console.WriteLine(Aaron.weight);
+        OutputName = Aaron.name;
+        OutputAge = Aaron.age;
+        OutputGender = Aaron.gender;
+        OutputHeight = Aaron.height;
+        OutputWeight = Aaron.weight;
 
 
     }
