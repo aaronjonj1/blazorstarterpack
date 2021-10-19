@@ -2,16 +2,7 @@
 
 <h1 style="color:black;">Bio</h1>
 
-<p>Output: @OutputName </p>
-
-<p>Output: @OutputAge </p>
-
-<p>Output: @OutputGender </p>
-
-<p>Output: @OutputHeight </p>
-
-<p>Output: @OutputWeight </p>
-
+<p>Output: @OutputString </p>
 @code
 {
 
@@ -24,22 +15,7 @@ class Biography
         string gender;
         string height;
         string weight;
-
-        private string OutputName { get; set; }
-        private string OutputAge { get; set; }
-        private string OutputGender { get; set; }
-        private string OutputHeight { get; set; }
-        private string OutputWeight { get; set; }
-
-        private void doProcessing()
-        {
-
-            OutputName = name.ToString();
-            OutputAge = age.ToString();
-            OutputGender = gender.ToString();
-            OutputHeight = height.ToString();
-            OutputWeight = weight.ToString();
-        }
+        string OutputString;
 
 
 
@@ -53,7 +29,7 @@ class Biography
             Aaron.height = "177 cm";
             Aaron.weight = "88 kg";
 
-            Aaron.doProcessing();
+            Aaron.OutputString = Console.WriteLine(Aaron.name + "\n" + Aaron.age + "\n" + Aaron.gender + "\n" + Aaron.height +"\n" + Aaron.weight);
 
         }
 
