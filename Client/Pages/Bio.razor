@@ -1,0 +1,54 @@
+@page "/bio"
+
+<h1 style="color:black;">Bio</h1>
+
+<p>Output: @OutputName </p>
+
+<p>Output: @OutputAge </p>
+
+<p>Output: @OutputGender </p>
+
+<p>Output: @OutputHeight </p>
+
+<p>Output: @OutputWeight </p>
+
+@code
+
+{
+    private string OutputName { get; set; }
+    private string OutputAge { get; set; }
+    private string OutputGender { get; set; }
+    private string OutputHeight { get; set; }
+    private string OutputWeight { get; set; }
+
+    private class Biography()
+
+    {
+
+       private string name;
+       private string age;
+       private string gender;
+       private string height;
+       private string weight;
+
+    }
+
+    static void Main(string[] args)
+    {
+        Biography Aaron = new Biography();
+        Aaron.name = "Aaron Jones";
+        Aaron.age = "21";
+        Aaron.gender = "Male";
+        Aaron.height = "177 cm";
+        Aaron.weight = "88 kg";
+
+        OutputName = Console.WriteLine(Aaron.name);
+        OutputAge = Console.WriteLine(Aaron.age);
+        OutputGender = Console.WriteLine(Aaron.gender);
+        OutputHeight = Console.WriteLine(Aaron.height);
+        OutputWeight = Console.WriteLine(Aaron.weight);
+
+
+    }
+
+}
