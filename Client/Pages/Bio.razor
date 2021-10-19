@@ -13,24 +13,23 @@
 <p>Output: @OutputWeight </p>
 
 @code
-
 {
-            private string OutputName { get; set; }
-            private string OutputAge { get; set; }
-            private string OutputGender { get; set; }
-            private string OutputHeight { get; set; }
-            private string OutputWeight { get; set; }   
 
-    class Biography
+class Biography
 
     {
 
-       string name;
-       string age;
-       string gender;
-       string height;
-       string weight;   
-    
+        string name;
+        string age;
+        string gender;
+        string height;
+        string weight;
+
+        private string OutputName { get; set; }
+        private string OutputAge { get; set; }
+        private string OutputGender { get; set; }
+        private string OutputHeight { get; set; }
+        private string OutputWeight { get; set; }
 
         private void doProcessing()
         {
@@ -42,22 +41,21 @@
             OutputWeight = weight.ToString();
         }
 
-    
 
 
-    static void Main()
-    {
-        Biography Aaron = new Biography();
-        Aaron.name = "Aaron Jones";
-        Aaron.age = "21";
-        Aaron.gender = "Male";
-        Aaron.height = "177 cm";
-        Aaron.weight = "88 kg";
 
-        Aaron.doProcessing();
+        static void Main()
+        {
+            Biography Aaron = new Biography();
+            Aaron.name = "Aaron Jones";
+            Aaron.age = "21";
+            Aaron.gender = "Male";
+            Aaron.height = "177 cm";
+            Aaron.weight = "88 kg";
+
+            Aaron.doProcessing();
+
+        }
 
     }
-
-    }
-
 }
