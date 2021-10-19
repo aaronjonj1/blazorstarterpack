@@ -28,6 +28,10 @@ There will be more features to come along as well but it's still a work in devel
 10/11 My official project for COP 3003.
 <br />
 10/16 Added addition, subtraction, multiplication, division, and squared calculators. Also edited certain text colors and added pictures.
+<br />
+10/18 Combined additioin, subtraction, multiplication, and division calculators as one page. Moved squared calculator to IPO while also adding a double, triple, and cubed function. Edited button colors as well.
+<br />
+10/19 Added a BMI calculator.
 
 # Website Link
 https://mango-beach-0ae2a360f.azurestaticapps.net/
