@@ -48,13 +48,15 @@
         double numP = double.Parse(InputPounds);
         double numFI;
         double BMI;
+        double BMIR;
+        double Conversion = 703;
 
         numFI = (numF * 12) + numI;
-        BMI = numP/(numFI)/(numFI)*703;
+        BMI = numP/(numFI)/(numFI)*Conversion;
 
-        Math.Round(BMI, 2);
+        BMIR = Math.Round(BMI, 2);
 
-        OutputString = BMI.ToString();
+        OutputString = BMIR.ToString();
 
     }
 }
