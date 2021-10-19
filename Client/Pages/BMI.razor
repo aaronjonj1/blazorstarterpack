@@ -1,0 +1,56 @@
+@page "/bmi"
+
+<h1>BMI</h1>
+
+<p>Feet </p>
+
+<input @bind="InputFeet " />
+
+<p>Inches </p>
+
+<input @bind="InputInches " />
+
+<br />
+
+<p>Pounds </p>
+
+<input @bind="InputPounds " />
+
+<br />
+
+<button class="btn btn-primary" style="background-color:coral" @onclick="DoBMI">BMI</button>
+
+
+<br />
+
+<p>Output: @OutputString </p>
+
+@code
+
+{
+
+    private string InputFeet { get; set; }
+
+    private string InputInches { get; set; }
+
+    private string InputPounds { get; set; }
+
+    private string OutputString { get; set; }
+
+    private void DoBMI()
+
+    {
+
+        double numF = double.Parse(InputFeet);
+        double numI = double.Parse(InputInches);
+        double numP = double.Parse(InputPounds);
+        double numFI;
+        double BMI;
+
+        numFI = (numF * 12) + numI;
+        BMI = (numP/(numFI)*(numFI))*703;
+
+        OutputString = BMI.ToString();
+
+    }
+}
