@@ -31,6 +31,15 @@
        string height;
        string weight;
 
+        void doProcessing()
+        {
+            OutputName = name.ToString();
+            OutputAge = age.ToString();
+            OutputGender = gender.ToString();
+            OutputHeight = height.ToString();
+            OutputWeight = weight.ToString();
+        }
+
     
 
 
@@ -43,12 +52,7 @@
         Aaron.height = "177 cm";
         Aaron.weight = "88 kg";
 
-        OutputName = Aaron.name.ToString();
-        OutputAge = Aaron.age.ToString();
-        OutputGender = Aaron.gender.ToString();
-        OutputHeight = Aaron.height.ToString();
-        OutputWeight = Aaron.weight.ToString();
-
+        Aaron.doProcessing();
 
     }
 
