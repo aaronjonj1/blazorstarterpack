@@ -21,7 +21,7 @@
 <br />
 
 <button class="btn btn-primary" style="background-color:coral" @onclick="DoBMI">BMI</button>
-
+<br />
 
 <br />
 
@@ -51,6 +51,8 @@
 
         numFI = (numF * 12) + numI;
         BMI = numP/(numFI)/(numFI)*703;
+
+        Math.Round(BMI, 2);
 
         OutputString = BMI.ToString();
 
