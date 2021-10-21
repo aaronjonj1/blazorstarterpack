@@ -6,24 +6,15 @@
 @code
 {
 
-class Biography
+    public class Biography
 
     {
 
-        string name;
-        string age;
-        string gender;
-        string height;
-        string weight;
-        
-
-        public void doProcessing(){
-        Console.WriteLine(name + "\n");
-        Console.WriteLine(age + "\n");
-        Console.WriteLine(gender + "\n");
-        Console.WriteLine(height +"\n");
-        Console.WriteLine(weight);
-        }
+        public string name;
+        public int age;
+        public string gender;
+        public string height;
+        public string weight;
 
 
 
@@ -32,13 +23,21 @@ class Biography
         {
             Biography Aaron = new Biography();
             Aaron.name = "Aaron Jones";
-            Aaron.age = "21";
+            Aaron.age = 21;
             Aaron.gender = "Male";
             Aaron.height = "177 cm";
             Aaron.weight = "88 kg";
 
-            string OutputString = Aaron.doProcessing();
+            void OutputString()
+            {
+                Console.WriteLine(Aaron.name);
+                Console.WriteLine(Aaron.age);
+                Console.WriteLine(Aaron.gender);
+                Console.WriteLine(Aaron.height);
+                Console.WriteLine(Aaron.weight);
+            }
         }
 
     }
+}
 }
