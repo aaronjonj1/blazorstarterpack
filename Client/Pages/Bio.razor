@@ -15,10 +15,14 @@ class Biography
         string gender;
         string height;
         string weight;
-        string OutputString {get; set; }
+        
 
         string doProcessing(){
-        Console.WriteLine(name + "\n" + age + "\n" + gender + "\n" + height +"\n" + weight);
+        Console.WriteLine(name + "\n");
+        Console.WriteLine(age + "\n");
+        Console.WriteLine(gender + "\n");
+        Console.WriteLine(height +"\n");
+        Console.WriteLine(weight);
         }
 
 
@@ -33,6 +37,7 @@ class Biography
             Aaron.height = "177 cm";
             Aaron.weight = "88 kg";
 
+            string OutputString {get; set; }
             OutputString = Aaron.doProcessing();
         }
 
