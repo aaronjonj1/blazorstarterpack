@@ -8,27 +8,19 @@
 
 <br />
 
-<button class="btn btn-primary" style="background-color:limegreen" @onclick="ToyotaCamry">Toyota Camry</button>
+<button class="btn btn-primary" style="background-color:limegreen" @onclick="Toyota">Toyota Camry</button>
 
 <br />
 
-<p>Output: @OutputMake </p>
+<p>Make: @OutputMake </p>
 
-<br />
+<p>Model: @OutputModel </p>
 
-<p>Output: @OutputModel </p>
+<p>Color: @OutputColor </p>
 
-<br />
+<p>Year: @OutputYear </p>
 
-<p>Output: @OutputColor </p>
-
-<br />
-
-<p>Output: @OutputYear </p>
-
-<br />
-
-<p>Output: @OutputPrice </p>
+<p>Price: @OutputPrice </p>
 
 <br />
 
@@ -36,41 +28,58 @@
 
 {
 
-    private string OutputMake { get; set; }
-
-    private string OutputModel { get; set; }
-    
-    private string OutputColor { get; set; }
-
-    private string OutputYear { get; set; }
-    
-    private string OutputPrice { get; set; }
-
-    
-
-    private void ToyotaCamry()
-
+    public class Car
     {
+        private string OutputMake { get; set; }
 
-        string make = "Toyota";
+        private string OutputModel { get; set; }
 
-        string model = "Camry";
+        private string OutputColor { get; set; }
 
-        string color = "Gray";
+        private string OutputYear { get; set; }
 
-        int year = 2010;
+        private string OutputPrice { get; set; }
 
-        string price = "$5,650";
+        string make;
 
-        
+        string model;
 
-        OutputMake = make.ToString();
-        OutputModel = model.ToString();
-        OutputColor = color.ToString();
-        OutputYear = year.ToString();
-        OutputPrice = price.ToString();
+        string color;
 
+        int year;
+
+        string price;
+
+        private void CarOutput()
+        {
+            OutputMake = make.ToString();
+            OutputModel = model.ToString();
+            OutputColor = color.ToString();
+            OutputYear = year.ToString();
+            OutputPrice = price.ToString();
+        }
+
+
+
+        private void Toyota()
+
+        {
+            Car Toyota = new Car();
+
+            Toyota.make = "Toyota";
+
+            Toyota.model = "Camry";
+
+            Toyota.color = "Gray";
+
+            Toyota.year = 2010;
+
+            Toyota.price = "$5,650";
+
+            Toyota.CarOutput();
+
+
+
+        }
     }
-    
-    
 }
