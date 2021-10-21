@@ -1,0 +1,54 @@
+@page "/car"
+
+<h1 style="color:black;">Car</h1>
+
+
+
+<br />
+
+<br />
+
+<button class="btn btn-primary" style="background-color:limegreen" @onclick="ToyotaCamry">Double</button>
+
+<br />
+
+<p>Output: @OutputString </p>
+
+@code
+
+{
+
+    private string InputMake { get; set; }
+
+    private string InputModel { get; set; }
+    
+    private string InputColor { get; set; }
+
+    private string InputYear { get; set; }
+    
+    private string InputPrice {get; set; }
+
+    private string OutputString { get; set; }
+
+    private void ToyotaCamry()
+
+    {
+
+        string make = "Toyota";
+
+        string model = "Camry";
+
+        string color = "Gray";
+
+        int year = 2010;
+
+        string price = "$5,650"
+
+        
+
+        OutputString = make.ToString() + model.ToString() + color.ToString() + year.ToString() + price.ToString();
+
+    }
+    
+    
+}
