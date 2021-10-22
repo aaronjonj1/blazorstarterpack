@@ -3,7 +3,7 @@
 <h1 style="color:black;">Car</h1>
 <br />
 
-<button class="btn btn-primary" style="background-color:limegreen" @onclick="DoCar">Toyota Camry</button>
+<button class="btn btn-primary" style="background-color:limegreen" @onclick="Toyota">Toyota Camry</button>
 
 <br />
 
@@ -22,9 +22,7 @@
 
 
 @code
-{
 
-   
     public class DoCar
     {
         public string OutputMake { get; set; }
@@ -49,7 +47,7 @@
 
 
 
-        public void Main()
+        private void Toyota()
 
         {
             DoCar Toyota = new DoCar();
@@ -74,4 +72,3 @@
 
         }
     }
-}
