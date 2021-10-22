@@ -3,19 +3,19 @@
 <h1 style="color:black;">Car</h1>
 <br />
 
-<button class="btn btn-primary" style="background-color:limegreen" @onclick="Toyota">Toyota Camry</button>
+<button class="btn btn-primary" style="background-color:limegreen" @onclick="DoCar">Toyota Camry</button>
 
 <br />
 
-<p>Make: @OutputMake </p>
+<p>Make: @Car OutputMake </p>
 
-<p>Model: @OutputModel </p>
+<p>Model: @Car OutputModel </p>
 
-<p>Color: @OutputColor </p>
+<p>Color: @Car OutputColor </p>
 
-<p>Year: @OutputYear </p>
+<p>Year: @Car OutputYear </p>
 
-<p>Price: @OutputPrice </p>
+<p>Price: @Car OutputPrice </p>
 
 
 
@@ -24,17 +24,18 @@
 @code
 {
 
-    public class DoCar
+   
+    public class Car
     {
-        private string OutputMake { get; set; }
+        public string OutputMake { get; set; }
 
-        private string OutputModel { get; set; }
+        public string OutputModel { get; set; }
 
-        private string OutputColor { get; set; }
+        public string OutputColor { get; set; }
 
-        private string OutputYear { get; set; }
+        public string OutputYear { get; set; }
 
-        private string OutputPrice { get; set; }
+        public string OutputPrice { get; set; }
 
         string make;
 
@@ -46,10 +47,7 @@
 
         string price;
 
-
-
-        public void carData()
-
+        public void CarOutput()
         {
             OutputMake = make.ToString();
             OutputModel = model.ToString();
@@ -58,27 +56,26 @@
             OutputPrice = price.ToString();
         }
 
-        public static void Main()
+
+
+        public void Main()
+
         {
+            Car Toyota = new Car();
 
-            void Toyota()
+            Toyota.make = "Toyota";
 
-            {
-                DoCar Toyota = new DoCar();
+            Toyota.model = "Camry";
 
-                Toyota.make = "Toyota";
+            Toyota.color = "Gray";
 
-                Toyota.model = "Camry";
+            Toyota.year = 2010;
 
-                Toyota.color = "Gray";
+            Toyota.price = "$5,650";
 
-                Toyota.year = 2010;
+            Toyota.CarOutput();
 
-                Toyota.price = "$5,650";
 
-                Toyota.carData();
-
-            }
 
         }
     }
