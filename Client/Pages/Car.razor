@@ -28,7 +28,7 @@
 
 {
 
-    public class Car
+public class Car
     {
         private string OutputMake { get; set; }
 
@@ -51,14 +51,15 @@
         string price;
 
 
-        private void Data()
+
+        public void carData()
 
         {
-        OutputMake = make.ToString();
-        OutputModel = model.ToString();
-        OutputColor = color.ToString();
-        OutputYear = year.ToString();
-        OutputPrice = price.ToString();
+            OutputMake = make.ToString();
+            OutputModel = model.ToString();
+            OutputColor = color.ToString();
+            OutputYear = year.ToString();
+            OutputPrice = price.ToString();
         }
 
 
@@ -77,10 +78,11 @@
 
             Toyota.price = "$5,650";
 
-            Toyota.Data;
+            Toyota.carData();
 
 
 
         }
+
     }
 }
