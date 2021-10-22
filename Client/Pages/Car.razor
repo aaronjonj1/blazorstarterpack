@@ -3,7 +3,7 @@
 <h1 style="color:black;">Car</h1>
 <br />
 
-<button class="btn btn-primary" style="background-color:limegreen" @onclick="CarOutput">Toyota Camry</button>
+<button class="btn btn-primary" style="background-color:limegreen" @onclick="Main">Toyota Camry</button>
 
 <br />
 
@@ -47,15 +47,6 @@
 
         string price;
 
-        public void CarOutput()
-        {
-            OutputMake = make.ToString();
-            OutputModel = model.ToString();
-            OutputColor = color.ToString();
-            OutputYear = year.ToString();
-            OutputPrice = price.ToString();
-        }
-
 
 
         public void Main()
@@ -73,7 +64,11 @@
 
             Toyota.price = "$5,650";
 
-            Toyota.CarOutput();
+            OutputMake = Toyota.make.ToString();
+            OutputModel = Toyota.model.ToString();
+            OutputColor = Toyota.color.ToString();
+            OutputYear = Toyota.year.ToString();
+            OutputPrice = Toyota.price.ToString();
 
 
 
