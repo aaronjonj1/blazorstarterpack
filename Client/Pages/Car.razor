@@ -1,56 +1,85 @@
 @page "/car"
 
 <h1 style="color:black;">Car</h1>
+<br />
 
-<p>Input number </p>
-
-<input @bind="EmployeeId " />
+<button class="btn btn-primary" style="background-color:limegreen" @onclick="Toyota">Toyota Camry</button>
 
 <br />
 
-<br />
+<p>Make: @OutputMake </p>
 
-<button class="btn btn-primary" style="background-color:limegreen" @onclick="DoDouble">Double</button>
+<p>Model: @OutputModel </p>
 
-<br />
+<p>Color: @OutputColor </p>
 
-<p>Make: @EmployeeId </p>
+<p>Year: @OutputYear </p>
+
+<p>Price: @OutputPrice </p>
 
 
 
-<br />
+
 
 @code
-
 {
-// Employee class
 
-public class Employee
-{
-    public int EmployeeId { get; set; }
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-    public string Email { get; set; }
-    public DateTime DateOfBrith { get; set; }
-    public Gender Gender { get; set; }
-    public Department Department { get; set; }
-    public string PhotoPath { get; set; }
-}
+    public class DoCar
+    {
+        private string OutputMake { get; set; }
 
-// Gender Enum
+        private string OutputModel { get; set; }
 
-public enum Gender
-{
-    Male,
-    Female,
-    Other
-}
+        private string OutputColor { get; set; }
 
-// Department Class
+        private string OutputYear { get; set; }
 
-public class Department
-{
-    public int DepartmentId { get; set; }
-    public string DepartmentName { get; set; }
-}
+        private string OutputPrice { get; set; }
+
+        string make;
+
+        string model;
+
+        string color;
+
+        int year;
+
+        string price;
+
+
+
+        public void carData()
+
+        {
+            OutputMake = make.ToString();
+            OutputModel = model.ToString();
+            OutputColor = color.ToString();
+            OutputYear = year.ToString();
+            OutputPrice = price.ToString();
+        }
+
+        public static void Main()
+        {
+
+            void Toyota()
+
+            {
+                DoCar Toyota = new DoCar();
+
+                Toyota.make = "Toyota";
+
+                Toyota.model = "Camry";
+
+                Toyota.color = "Gray";
+
+                Toyota.year = 2010;
+
+                Toyota.price = "$5,650";
+
+                Toyota.carData();
+
+            }
+
+        }
+    }
 }
