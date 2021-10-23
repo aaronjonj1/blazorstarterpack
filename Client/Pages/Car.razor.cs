@@ -29,26 +29,51 @@ namespace carProgram
 
 
 
-        public void Main()
+        public void Camry()
 
         {
-            DoCar Toyota = new DoCar();
+            DoCar Camry = new DoCar();
 
-            Toyota.make = "Toyota";
+            Camry.make = "Toyota";
 
-            Toyota.model = "Camry";
+            Camry.model = "Camry";
 
-            Toyota.color = "Gray";
+            Camry.color = "Gray";
 
-            Toyota.year = 2010;
+            Camry.year = 2010;
 
-            Toyota.price = "$5,650";
+            Camry.price = "$5,650";
 
-            OutputMake = Toyota.make.ToString();
-            OutputModel = Toyota.model.ToString();
-            OutputColor = Toyota.color.ToString();
-            OutputYear = Toyota.year.ToString();
-            OutputPrice = Toyota.price.ToString();
+            OutputMake = Camry.make.ToString();
+            OutputModel = Camry.model.ToString();
+            OutputColor = Camry.color.ToString();
+            OutputYear = Camry.year.ToString();
+            OutputPrice = Camry.price.ToString();
+
+
+
+        }
+
+        public void MustangGT()
+
+        {
+            DoCar MustangGT = new DoCar();
+
+            MustangGT.make = "Ford";
+
+            MustangGT.model = "Mustang GT";
+
+            MustangGT.color = "Black";
+
+            MustangGT.year = 2018;
+
+            MustangGT.price = "$29,975";
+
+            OutputMake = MustangGT.make.ToString();
+            OutputModel = MustangGT.model.ToString();
+            OutputColor = MustangGT.color.ToString();
+            OutputYear = MustangGT.year.ToString();
+            OutputPrice = MustangGT.price.ToString();
 
 
 
