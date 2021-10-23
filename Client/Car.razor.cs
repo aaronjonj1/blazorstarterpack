@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Components;
 @using BlazorSample;
-@using BlazorSample.Shared;
-@using BlazorSample.Components;
+@using BlazorSample.Shared { get; }
+@using BlazorSample.Components { get; }
 
 namespace ConsoleApp3
 {
