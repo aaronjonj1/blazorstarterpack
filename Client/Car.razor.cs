@@ -1,4 +1,7 @@
 using Microsoft.AspNetCore.Components;
+@using BlazorSample;
+@using BlazorSample.Shared;
+@using BlazorSample.Components;
 
 namespace ConsoleApp3
 {
