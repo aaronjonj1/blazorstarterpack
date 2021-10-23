@@ -72,11 +72,11 @@ namespace carProgram
 
             MustangGT.price = "$29,975";
 
-            OutputMake = MustangGT.make.ToString();
-            OutputModel = MustangGT.model.ToString();
-            OutputColor = MustangGT.color.ToString();
-            OutputYear = MustangGT.year.ToString();
-            OutputPrice = MustangGT.price.ToString();
+            MustangGT.OutputMake = MustangGT.make.ToString();
+            MustangGT.OutputModel = MustangGT.model.ToString();
+            MustangGT.OutputColor = MustangGT.color.ToString();
+            MustangGT.OutputYear = MustangGT.year.ToString();
+            MustangGT.OutputPrice = MustangGT.price.ToString();
 
 
 
