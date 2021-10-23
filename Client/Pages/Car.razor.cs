@@ -1,9 +1,8 @@
 using Microsoft.AspNetCore.Components;
-@using BlazorSample;
-@using BlazorSample.Shared { get; }
-@using BlazorSample.Components { get; }
+using BlazorApp;
+using BlazorApp.Shared;
 
-namespace ConsoleApp3
+namespace carProgram
 {
 
     public class DoCar : ComponentBase
@@ -30,7 +29,7 @@ namespace ConsoleApp3
 
 
 
-        private void Main()
+        public void Main()
 
         {
             DoCar Toyota = new DoCar();
