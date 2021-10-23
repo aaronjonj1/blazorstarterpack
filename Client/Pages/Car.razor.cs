@@ -2,8 +2,7 @@ using Microsoft.AspNetCore.Components;
 using BlazorApp;
 using BlazorApp.Shared;
 using static System.Text.Encodings.Web.HtmlEncoder;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+
 
 namespace carProgram
 {
