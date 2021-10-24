@@ -20,6 +20,8 @@ namespace carProgram
 
         string price;
 
+        string url;
+
         public string OutputMake { get; set; }
 
         public string OutputModel { get; set; }
@@ -30,14 +32,9 @@ namespace carProgram
 
         public string OutputPrice { get; set; }
 
-        public void Output()
-        {
-            OutputMake = make.ToString();
-            OutputModel = model.ToString();
-            OutputColor = color.ToString();
-            OutputYear = year.ToString();
-            OutputPrice = price.ToString();
-        }
+        public string OutputURL { get; set; }
+
+            
 
 
 
@@ -57,8 +54,14 @@ namespace carProgram
 
             Camry.price = "$5,650";
 
-            Camry.Output();
+            Camry.url = "https://media.ed.edmunds-media.com/toyota/camry/2010/oem/2010_toyota_camry_sedan_le_fq_oem_1_500.jpg";
 
+            OutputMake = make.ToString();
+            OutputModel = model.ToString();
+            OutputColor = color.ToString();
+            OutputYear = year.ToString();
+            OutputPrice = price.ToString();
+            OutputURL = url.ToString();
 
 
         }
@@ -78,8 +81,12 @@ namespace carProgram
 
             MustangGT.price = "$29,975";
 
-            MustangGT.Output();
-
+            OutputMake = make.ToString();
+            OutputModel = model.ToString();
+            OutputColor = color.ToString();
+            OutputYear = year.ToString();
+            OutputPrice = price.ToString();
+            OutputURL = url.ToString();
 
 
         }

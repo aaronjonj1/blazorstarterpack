@@ -2,27 +2,18 @@
 
 @inherits carProgram.DoCar
 
-<h1 style="color:black;">Used Car Dealership Database</h1>
+<h1 style="color:black;">Used Car Dealership Data</h1>
+<button class="btn btn-primary" style="background-color:cornflowerblue" @onclick="Camry">Toyota Camry '10</button>
 <br />
 
 <br/>
 
+      <p>Make: @OutputMake</p>
+      <p>Model: @OutputModel</p>
+      <p>Color: @OutputColor</p>
+      <p>Year: @OutputYear</p>
+      <p>Price: @OutputPrice</p>
+      <br />
+      <img src=@OutputURL style="width:500px;height:600px;">
 
-<table>
-  <tr>
-    <th>Make</th>
-    <th>Model</th>
-    <th>Color</th>
-    <th>Year</th>
-    <th>Price</th>
-  </tr>
-  <tr>
-      <td>@OutputMake</td>
-      <td>@OutputModel</td>
-      <td>@OutputColor</td>
-      <td>@OutputYear</td>
-      <td>@OutputPrice</td>
-  </tr>
-  
-</table>
 
