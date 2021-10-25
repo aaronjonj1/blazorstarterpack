@@ -10,7 +10,7 @@ namespace SalaryProgram
     {
         public float programmerSalary = 95640;
     }
-    class TestInheritance
+    public class TestInheritance
     {
         public static void Main(string[] args)
         {
