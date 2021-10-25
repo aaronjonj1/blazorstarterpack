@@ -9,17 +9,16 @@ namespace carProgram
 
     public class DoCar : ComponentBase
     {
-        public string OutputMake { get; set; }
+        public string OutputMake;
 
-        public string OutputModel { get; set; }
+        public string OutputModel;
 
-        public string OutputColor { get; set; }
+        public string OutputColor;
 
-        public string OutputYear { get; set; }
+        public string OutputYear;
 
-        public string OutputPrice { get; set; }
+        public string OutputPrice;
 
-        public string OutputURL { get; set; }
 
         string make;
 
