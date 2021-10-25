@@ -9,19 +9,6 @@ namespace carProgram
 
     public class DoCar : ComponentBase
     {
-
-        string make;
-
-        string model;
-
-        string color;
-
-        int year;
-
-        string price;
-
-        public string url;
-
         public string OutputMake { get; set; }
 
         public string OutputModel { get; set; }
@@ -33,6 +20,17 @@ namespace carProgram
         public string OutputPrice { get; set; }
 
         public string OutputURL { get; set; }
+
+        string make;
+
+        string model;
+
+        string color;
+
+        int year;
+
+        string price;
+
 
 
 
@@ -84,7 +82,6 @@ namespace carProgram
             OutputColor = color.ToString();
             OutputYear = year.ToString();
             OutputPrice = price.ToString();
-            OutputURL = url.ToString();
 
 
 
