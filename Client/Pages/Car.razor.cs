@@ -54,14 +54,12 @@ namespace carProgram
 
             Camry.price = "$5,650";
 
-            Camry.url = "https://media.ed.edmunds-media.com/toyota/camry/2010/oem/2010_toyota_camry_sedan_le_fq_oem_1_500.jpg";
-
             OutputMake = make.ToString();
             OutputModel = model.ToString();
             OutputColor = color.ToString();
             OutputYear = year.ToString();
             OutputPrice = price.ToString();
-            OutputURL = url.ToString();
+      
 
 
         }
