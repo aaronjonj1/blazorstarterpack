@@ -3,7 +3,7 @@
 @inherits carProgram.DoCar
 
 <h1 style="color:black;">Used Car Dealership Data</h1>
-<button class="btn btn-primary" src="https://media.ed.edmunds-media.com/toyota/camry/2010/oem/2010_toyota_camry_sedan_le_fq_oem_1_500.jpg" @onclick="Camry">Toyota Camry '10</button>
+<button class="btn btn-primary" @onclick="Camry">Toyota Camry '10 <img src="https://media.ed.edmunds-media.com/toyota/camry/2010/oem/2010_toyota_camry_sedan_le_fq_oem_1_500.jpg"></button>
 <br />
 
 <br/>
@@ -14,6 +14,7 @@
       <p>Color: @OutputColor</p>
       <p>Year: @OutputYear</p>
       <p>Price: @OutputPrice</p>
+      <p>Price: @OutputURL</p>
       <br />
 
 
