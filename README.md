@@ -32,6 +32,8 @@ There will be more features to come along as well but it's still a work in devel
 10/18 Combined additioin, subtraction, multiplication, and division calculators as one page. Moved squared calculator to IPO while also adding a double, triple, and cubed function. Edited button colors as well.
 <br />
 10/19 Added a BMI calculator.
+<br />
+10/23 Successfully implemented Used Car Dealership data with classes.
 
 # Website Link
 https://mango-beach-0ae2a360f.azurestaticapps.net/
