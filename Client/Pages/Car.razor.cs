@@ -1,7 +1,4 @@
 using Microsoft.AspNetCore.Components;
-using BlazorApp;
-using BlazorApp.Shared;
-using static System.Text.Encodings.Web.HtmlEncoder;
 
 
 namespace carProgram
