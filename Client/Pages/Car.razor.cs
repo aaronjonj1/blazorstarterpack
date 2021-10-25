@@ -32,7 +32,9 @@ namespace carProgram
 
         public string OutputPrice { get; set; }
 
-            
+        public string OutputURL { get; set; }
+
+
 
 
 
@@ -59,6 +61,7 @@ namespace carProgram
             OutputColor = color.ToString();
             OutputYear = year.ToString();
             OutputPrice = price.ToString();
+            OutputURL = url.ToString();
 
 
         }
@@ -83,6 +86,7 @@ namespace carProgram
             OutputColor = color.ToString();
             OutputYear = year.ToString();
             OutputPrice = price.ToString();
+            OutputURL = url.ToString();
 
 
 
