@@ -89,5 +89,27 @@ namespace carProgram
             OutputURL = VWTiguan.URL.ToString();
             OutputNotes = VWTiguan.notes.ToString();
         }
+
+         public void Car4()
+
+        {
+            DoCar KiaRio = new DoCar();
+            KiaRio.make = "Kia";
+            KiaRio.model = "Rio";
+            KiaRio.color = "White";
+            KiaRio.year = 2015;
+            KiaRio.price = "$12,479";
+            KiaRio.mileage = 83923;
+            KiaRio.URL = "https://bidfax.info/uploads/posts/2018-12/14/kia-rio-2015-knadm4a33f6501926-img1.jpg";
+            KiaRio.notes = "May need to buy a new battery.";
+            OutputMake = KiaRio.make.ToString();
+            OutputModel = KiaRio.model.ToString();
+            OutputColor = KiaRio.color.ToString();
+            OutputYear = KiaRio.year.ToString();
+            OutputPrice = KiaRio.price.ToString();
+            OutputMileage = KiaRio.mileage.ToString();
+            OutputURL = KiaRio.URL.ToString();
+            OutputNotes = KiaRio.notes.ToString();
+        }
     }
 }
