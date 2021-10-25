@@ -24,26 +24,26 @@ namespace carProgram
         int mileage;
         string notes;
 
-        public void Main()
+        public void Car1()
 
         {
-            DoCar Toyota = new DoCar();
-            Toyota.make = "Toyota";
-            Toyota.model = "Camry";
-            Toyota.color = "Gray";
-            Toyota.year = 2010;
-            Toyota.price = "$5,650";
-            Toyota.mileage = 74561;
-            Toyota.URL = "https://media.ed.edmunds-media.com/toyota/camry/2010/oem/2010_toyota_camry_sedan_le_fq_oem_1_500.jpg";
-            Toyota.notes = "";
-            OutputMake = Toyota.make.ToString();
-            OutputModel = Toyota.model.ToString();
-            OutputColor = Toyota.color.ToString();
-            OutputYear = Toyota.year.ToString();
-            OutputPrice = Toyota.price.ToString();
-            OutputMileage = Toyota.mileage.ToString();
-            OutputURL = Toyota.URL.ToString();
-            OutputNotes = Toyota.notes.ToString();
+            DoCar ToyotaCamry = new DoCar();
+            ToyotaCamry.make = "Toyota";
+            ToyotaCamry.model = "Camry";
+            ToyotaCamry.color = "Gray";
+            ToyotaCamry.year = 2010;
+            ToyotaCamry.price = "$5,650";
+            ToyotaCamry.mileage = 74561;
+            ToyotaCamry.URL = "https://media.ed.edmunds-media.com/toyota/camry/2010/oem/2010_toyota_camry_sedan_le_fq_oem_1_500.jpg";
+            ToyotaCamry.notes = "";
+            OutputMake = ToyotaCamry.make.ToString();
+            OutputModel = ToyotaCamry.model.ToString();
+            OutputColor = ToyotaCamry.color.ToString();
+            OutputYear = ToyotaCamry.year.ToString();
+            OutputPrice = ToyotaCamry.price.ToString();
+            OutputMileage = ToyotaCamry.mileage.ToString();
+            OutputURL = ToyotaCamry.URL.ToString();
+            OutputNotes = ToyotaCamry.notes.ToString();
         }
     }
 }
