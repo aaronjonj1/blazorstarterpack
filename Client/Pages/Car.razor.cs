@@ -67,5 +67,27 @@ namespace carProgram
             OutputURL = NissanAltima.URL.ToString();
             OutputNotes = NissanAltima.notes.ToString();
         }
+
+        public void Car3()
+
+        {
+            DoCar VWTiguan = new DoCar();
+            VWTiguan.make = "Volkswagen";
+            VWTiguan.model = "Tiguan";
+            VWTiguan.color = "Blue";
+            VWTiguan.year = 2017;
+            VWTiguan.price = "$22,475";
+            VWTiguan.mileage = 64593;
+            VWTiguan.URL = "https://media.ed.edmunds-media.com/volkswagen/tiguan/2017/oem/2017_volkswagen_tiguan_4dr-suv_wolfsburg-edition-4motion_fq_oem_1_1600.jpg";
+            VWTiguan.notes = "";
+            OutputMake = VWTiguan.make.ToString();
+            OutputModel = VWTiguan.model.ToString();
+            OutputColor = VWTiguan.color.ToString();
+            OutputYear = VWTiguan.year.ToString();
+            OutputPrice = VWTiguan.price.ToString();
+            OutputMileage = VWTiguan.mileage.ToString();
+            OutputURL = VWTiguan.URL.ToString();
+            OutputNotes = VWTiguan.notes.ToString();
+        }
     }
 }
