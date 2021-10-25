@@ -45,5 +45,27 @@ namespace carProgram
             OutputURL = ToyotaCamry.URL.ToString();
             OutputNotes = ToyotaCamry.notes.ToString();
         }
+
+        public void Car2()
+
+        {
+            DoCar NissanAltima = new DoCar();
+            NissanAltima.make = "Nissan";
+            NissanAltima.model = "Altima";
+            NissanAltima.color = "Blue";
+            NissanAltima.year = 2004;
+            NissanAltima.price = "$2,758";
+            NissanAltima.mileage = 103568;
+            NissanAltima.URL = "https://hips.hearstapps.com/autoweek/assets/s3fs-public/60630006.jpg";
+            NissanAltima.notes = "Back right side of car damaged.";
+            OutputMake = NissanAltima.make.ToString();
+            OutputModel = NissanAltima.model.ToString();
+            OutputColor = NissanAltima.color.ToString();
+            OutputYear = NissanAltima.year.ToString();
+            OutputPrice = NissanAltima.price.ToString();
+            OutputMileage = NissanAltima.mileage.ToString();
+            OutputURL = NissanAltima.URL.ToString();
+            OutputNotes = NissanAltima.notes.ToString();
+        }
     }
 }
