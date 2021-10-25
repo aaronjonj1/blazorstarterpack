@@ -111,5 +111,49 @@ namespace carProgram
             OutputURL = KiaRio.URL.ToString();
             OutputNotes = KiaRio.notes.ToString();
         }
+
+        public void Car5()
+
+        {
+            DoCar FordTruck = new DoCar();
+            FordTruck.make = "Ford";
+            FordTruck.model = "F-150";
+            FordTruck.color = "Black";
+            FordTruck.year = 2013;
+            FordTruck.price = "$13,899";
+            FordTruck.mileage = 122003;
+            FordTruck.URL = "https://bidfax.info/uploads/posts/2020-08/13/ford-f-150-2013-1ftfw1et3dke41844-img1.jpg";
+            FordTruck.notes = "";
+            OutputMake = FordTruck.make.ToString();
+            OutputModel = FordTruck.model.ToString();
+            OutputColor = FordTruck.color.ToString();
+            OutputYear = FordTruck.year.ToString();
+            OutputPrice = FordTruck.price.ToString();
+            OutputMileage = FordTruck.mileage.ToString();
+            OutputURL = FordTruck.URL.ToString();
+            OutputNotes = FordTruck.notes.ToString();
+        }
+
+        public void Car6()
+
+        {
+            DoCar PTCruiser = new DoCar();
+            PTCruiser.make = "Chrysler";
+            PTCruiser.model = "PT Cruiser";
+            PTCruiser.color = "White";
+            PTCruiser.year = 2006;
+            PTCruiser.price = "$3,940";
+            PTCruiser.mileage = 117734;
+            PTCruiser.URL = "https://static.cargurus.com/images/forsale/2021/03/31/20/46/2006_chrysler_pt_cruiser-pic-545578003520412230-1024x768.jpeg";
+            PTCruiser.notes = "Convertible";
+            OutputMake = PTCruiser.make.ToString();
+            OutputModel = PTCruiser.model.ToString();
+            OutputColor = PTCruiser.color.ToString();
+            OutputYear = PTCruiser.year.ToString();
+            OutputPrice = PTCruiser.price.ToString();
+            OutputMileage = PTCruiser.mileage.ToString();
+            OutputURL = PTCruiser.URL.ToString();
+            OutputNotes = PTCruiser.notes.ToString();
+        }
     }
 }
