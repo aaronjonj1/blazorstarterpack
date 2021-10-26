@@ -7,6 +7,15 @@ namespace carProgram
 
     public class DoCar : ComponentBase
     {
+
+        public string make;
+        public string model;
+        public string color;
+        public int year;
+        public string price;
+        public string URL;
+        public int mileage;
+        public string notes;
         public string OutputMake { get; set; }
         public string OutputModel { get; set; }
         public string OutputColor { get; set; }
@@ -15,15 +24,10 @@ namespace carProgram
         public string OutputMileage { get; set; }
         public string OutputURL { get; set; }
         public string OutputNotes { get; set; }
-        string make;
-        string model;
-        string color;
-        int year;
-        string price;
-        string URL;
-        int mileage;
-        string notes;
+    }
 
+    public class AllCars : DoCar
+    {
         public void Car1()
 
         {
