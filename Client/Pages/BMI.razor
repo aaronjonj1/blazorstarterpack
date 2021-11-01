@@ -26,7 +26,9 @@
 
 <br />
 
-<p>Output: @OutputString </p>
+<p>BMI: @OutputString </p>
+
+<p>Class: @OutputClass </p>
 
 @code
 
@@ -39,6 +41,8 @@
     private string InputPounds { get; set; }
 
     private string OutputString { get; set; }
+
+    private string OutputClass { get; set; }
 
     private void DoBMI()
 
@@ -56,6 +60,32 @@
         BMI = numP/(numFI)/(numFI)*Conversion;
 
         BMIR = Math.Round(BMI, 2);
+
+        if (BMIR < 18.50)
+        {
+            OutputClass = "Underweight";
+        }
+
+        else if (BMIR >= 18.50 || BMIR < 25.00)
+        {
+            OutputClass = "Normal";
+        }
+
+        else if (BMIR >= 25.00 || BMIR < 30.00)
+        {
+            OutputClass = "Overweight";
+        }
+
+        else if (BMIR >= 30.00 || BMIR < 40.00)
+        {
+            OutputClass = "Obese";
+        }
+
+        else if (BMIR >= 40.00)
+        {
+            OutputClass = "Morbidly Obese";
+        }
+
 
         OutputString = BMIR.ToString();
 
