@@ -34,6 +34,13 @@ There will be more features to come along as well but it's still a work in devel
 10/19 Added a BMI calculator.
 <br />
 10/23 Successfully implemented Used Car Dealership data with classes.
+<br />
+10/25 Updated the car data information so it would successfully implement requirements 1 and 2 for the project.
+<br />
+11/01 Made some edits to the BMI Calculator and implemented a table guide.
+<br />
+
+# Milestone 1: Please check Car.razor.cs and Car.razor for the requirements given.
 
 # Website Link
 https://mango-beach-0ae2a360f.azurestaticapps.net/
