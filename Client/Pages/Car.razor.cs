@@ -5,17 +5,20 @@ using BlazorApp.Shared;
 namespace carProgram
 {
 
+    //main class
     public class DoCar : ComponentBase
     {
 
-        public string make;
-        public string model;
-        public string color;
-        public int year;
-        public string price;
-        public string URL;
-        public int mileage;
-        public string notes;
+        public string make; //car make
+        public string model; //car model
+        public string color; //car color
+        public int year; //car year
+        public string price; //car price
+        public string URL; //car url
+        public int mileage; //car mileage
+        public string notes; //car notes
+
+        //Outputs
         public string OutputMake { get; set; }
         public string OutputModel { get; set; }
         public string OutputColor { get; set; }
@@ -26,6 +29,7 @@ namespace carProgram
         public string OutputNotes { get; set; }
     }
 
+    //sub class
     public class AllCars : DoCar
     {
         public void Car1()

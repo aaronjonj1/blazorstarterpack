@@ -60,6 +60,7 @@
     @code
 
 {
+        //Inputs and Outputs
 
         private string InputFeet { get; set; }
 
@@ -71,22 +72,28 @@
 
         private string OutputClass { get; set; }
 
+        //BMI Calculator
+
         private void DoBMI()
 
         {
-
+            //variables
             double numF = double.Parse(InputFeet);
             double numI = double.Parse(InputInches);
             double numP = double.Parse(InputPounds);
             double numFI;
             double BMI;
             double BMIR;
-            double Conversion = 703;
+            double Conversion = 703; //the conversion factor number
 
-            numFI = (numF * 12) + numI;
-            BMI = numP / (numFI) / (numFI) * Conversion;
 
-            BMIR = Math.Round(BMI, 2);
+            numFI = (numF * 12) + numI; //Feet ' Inches = (feet * 12) + inches
+            BMI = numP / (numFI) / (numFI) * Conversion; //BMI = pounds / Feet&Inches / (Feet&Inches) * conversion
+
+            BMIR = Math.Round(BMI, 2); //round answer to two decimal places
+
+
+            //certain groups based on BMI score
 
             if (BMIR < 18.50)
             {
