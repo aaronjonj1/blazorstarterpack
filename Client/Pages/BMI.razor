@@ -78,17 +78,18 @@
 
         {
             //variables
-            double numF = double.Parse(InputFeet);
-            double numI = double.Parse(InputInches);
-            double numP = double.Parse(InputPounds);
-            double numFI;
+            double numF = double.Parse(InputFeet); //input feet
+            double numI = double.Parse(InputInches); //input inches
+            double numP = double.Parse(InputPounds); //input pounds
+            double numFI; //combine feet and inches to just inches
             double BMI;
             double BMIR;
             double Conversion = 703; //the conversion factor number
 
 
-            numFI = (numF * 12) + numI; //Feet ' Inches = (feet * 12) + inches
+            numFI = (numF * 12) + numI; //Inches = (feet * 12) + inches      e.g. This person in the example is 5'9". (5*12) + 9 = 69
             BMI = numP / (numFI) / (numFI) * Conversion; //BMI = pounds / Feet&Inches / (Feet&Inches) * conversion
+            //e.g. This person in the example is 5'6" and 150 lbs. 150/66/(66)*703 = 24.21
 
             BMIR = Math.Round(BMI, 2); //round answer to two decimal places
 
