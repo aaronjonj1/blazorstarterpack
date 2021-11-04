@@ -5,7 +5,7 @@ using BlazorApp.Shared;
 namespace carProgram
 {
 
-    //main class
+    //main class (the parent class)
     public class DoCar : ComponentBase
     {
 
@@ -30,6 +30,8 @@ namespace carProgram
     }
 
     //sub class
+
+    //inherits the parent class making this a child class
     public class AllCars : DoCar
     {
         public void Car1()
