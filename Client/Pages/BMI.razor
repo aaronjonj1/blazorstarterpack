@@ -82,8 +82,7 @@
             double numI = double.Parse(InputInches); //input inches
             double numP = double.Parse(InputPounds); //input pounds
             double numFI; //combine feet and inches to just inches
-            double BMI;
-            double BMIR;
+            double BMI; //calculate BMI score
             double Conversion = 703; //the conversion factor number
 
 
@@ -91,38 +90,38 @@
             BMI = numP / (numFI) / (numFI) * Conversion; //BMI = pounds / Feet&Inches / (Feet&Inches) * conversion
             //e.g. This person in the example is 5'6" and 150 lbs. 150/66/(66)*703 = 24.21
 
-            BMIR = Math.Round(BMI, 2); //round answer to two decimal places
+            BMI = Math.Round(BMI, 2); //round answer to two decimal places
 
 
             //certain groups based on BMI score
 
-            if (BMIR < 18.50)
+            if (BMI < 18.50)
             {
                 OutputClass = "Underweight";
             }
 
-            else if (BMIR >= 18.50 && BMIR < 25.00)
+            else if (BMI >= 18.50 && BMI < 25.00)
             {
                 OutputClass = "Normal";
             }
 
-            else if (BMIR >= 25.00 && BMIR < 30.00)
+            else if (BMI >= 25.00 && BMI < 30.00)
             {
                 OutputClass = "Overweight";
             }
 
-            else if (BMIR >= 30.00 && BMIR < 40.00)
+            else if (BMI >= 30.00 && BMI < 40.00)
             {
                 OutputClass = "Obese";
             }
 
-            else if (BMIR >= 40.00)
+            else if (BMI >= 40.00)
             {
                 OutputClass = "Morbidly Obese";
             }
 
 
-            OutputString = BMIR.ToString();
+            OutputString = BMI.ToString();
 
         }
     }
