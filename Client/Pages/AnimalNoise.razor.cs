@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AnimalNoises
 {
-    class AnimalNoise
+    public class AnimalNoise
     {
         public virtual void animalSound()
         {
@@ -21,7 +21,7 @@ namespace AnimalNoises
         }
     }
 
-    class Cat : AnimalNoise
+    public class Cat : AnimalNoise
     {
         public override void animalSound()
         {
@@ -29,7 +29,7 @@ namespace AnimalNoises
         }
     }
 
-    class Cow : AnimalNoise
+    public class Cow : AnimalNoise
     {
         public override void animalSound()
         {
@@ -37,7 +37,7 @@ namespace AnimalNoises
         }
     }
 
-    class Sheep : AnimalNoise
+    public class Sheep : AnimalNoise
     {
         public override void animalSound()
         {
@@ -45,7 +45,7 @@ namespace AnimalNoises
         }
     }
 
-    class Pig : AnimalNoise
+    public class Pig : AnimalNoise
     {
         public override void animalSound()
         {
@@ -53,7 +53,7 @@ namespace AnimalNoises
         }
     }
 
-    class Lion : AnimalNoise
+    public class Lion : AnimalNoise
     {
         public override void animalSound()
         {
