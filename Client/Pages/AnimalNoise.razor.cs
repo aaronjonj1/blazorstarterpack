@@ -61,7 +61,7 @@ namespace AnimalNoises
         }
     }
 
-    class Product
+    public class Product
     {
         static void Main(string[] args)
         {
