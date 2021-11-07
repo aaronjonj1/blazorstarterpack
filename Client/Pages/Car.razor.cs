@@ -165,5 +165,49 @@ namespace carProgram
             OutputURL = PTCruiser.URL.ToString();
             OutputNotes = PTCruiser.notes.ToString();
         }
+
+        public void Car7()
+
+        {
+            DoCar DodgeCharger = new DoCar();
+            DodgeCharger.make = "Dodge";
+            DodgeCharger.model = "Charger";
+            DodgeCharger.color = "Blue";
+            DodgeCharger.year = 2019;
+            DodgeCharger.price = "$72,034";
+            DodgeCharger.mileage = 25558;
+            DodgeCharger.URL = "https://www.carprousa.com/hubfs/car-review-blog/review_271429_1.jpg";
+            DodgeCharger.notes = "";
+            OutputMake = DodgeCharger.make.ToString();
+            OutputModel = DodgeCharger.model.ToString();
+            OutputColor = DodgeCharger.color.ToString();
+            OutputYear = DodgeCharger.year.ToString();
+            OutputPrice = DodgeCharger.price.ToString();
+            OutputMileage = DodgeCharger.mileage.ToString();
+            OutputURL = DodgeCharger.URL.ToString();
+            OutputNotes = DodgeCharger.notes.ToString();
+        }
+
+        public void Car8()
+
+        {
+            DoCar Mirage = new DoCar();
+            Mirage.make = "Mitsubishi";
+            Mirage.model = "Mirage";
+            Mirage.color = "White";
+            Mirage.year = 2017;
+            Mirage.price = "$12,299";
+            Mirage.mileage = 46795;
+            Mirage.URL = "https://images.buysellsearch.com/image/orig/049ee8155f8a18c2184d61267f566d73/2017-mitsubishi-mirage-gt-cars-in-arizona.jpg";
+            Mirage.notes = "";
+            OutputMake = Mirage.make.ToString();
+            OutputModel = Mirage.model.ToString();
+            OutputColor = Mirage.color.ToString();
+            OutputYear = Mirage.year.ToString();
+            OutputPrice = Mirage.price.ToString();
+            OutputMileage = Mirage.mileage.ToString();
+            OutputURL = Mirage.URL.ToString();
+            OutputNotes = Mirage.notes.ToString();
+        }
     }
 }
