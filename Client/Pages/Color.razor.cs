@@ -35,17 +35,26 @@ namespace colorProgram
 
     public class Program
     {
-        string FinalOutput;
+        public string FinalOutput { get; set; }
         public static void Main()
         {
             Color myColor = new Color();
             myColor.colorCode();
+            string FinalOutput = myColor.ToString();
+        }
 
+        public static void Red()
+        {
             Color myRed = new Red();
             myRed.colorCode();
+            string FinalOutput = myRed.ToString();
+        }
 
+        public static void Blue()
+        {
             Color myBlue = new Blue();
             myBlue.colorCode();
+            string FinalOutput  = myBlue.ToString();
         }
 
             
