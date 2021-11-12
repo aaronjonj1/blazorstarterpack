@@ -36,7 +36,7 @@
 
     private string OutputString { get; set; }
 
-    
+
     //num 1 is first input and num 2 is second input
     //Addition calculator
 
@@ -93,9 +93,16 @@
         double num = double.Parse(InputString);
         double num2 = double.Parse(InputString2);
 
-        num = num / num2;
+        if (num2 != 0)
+        {
+            num = num / num2;
 
-        OutputString = num.ToString();
+            OutputString = num.ToString();
+        }
+        else
+        {
+            OutputString = "Did you just divide by zero? We don't do that here.";
+        }
 
     }
 
