@@ -33,10 +33,10 @@ namespace colorProgram
         }
     }
 
-    public class Program
+    public class Program : ComponentBase
     {
         public string FinalOutput;
-        public static void Main(string[] args)
+        public static void Main()
         {
             Color myColor = new Color();
             myColor.colorCode();
