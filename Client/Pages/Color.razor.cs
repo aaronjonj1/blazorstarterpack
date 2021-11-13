@@ -9,7 +9,7 @@ using System;
 
 namespace colorProgram
 {
-    public class Color
+    public class Color : ComponentBase
     {
         public virtual void colorCode()
         {
@@ -33,7 +33,7 @@ namespace colorProgram
         }
     }
 
-    public class Program : Color
+    public class Program
     {
         public string FinalOutput;
         public static void Main()
