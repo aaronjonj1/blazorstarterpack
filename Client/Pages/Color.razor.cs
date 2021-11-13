@@ -11,7 +11,7 @@ namespace colorProgram
 {
     public class Color : ComponentBase
     {
-        public void colorCode()
+        public virtual void colorCode()
         {
             Console.WriteLine("This is a color.");
         }
@@ -19,7 +19,7 @@ namespace colorProgram
 
     public class Red : Color
     {
-        public void colorCode()
+        public override void colorCode()
         {
             Console.WriteLine("This is the color red.");
         }
@@ -27,7 +27,7 @@ namespace colorProgram
 
     public class Blue : Color
     {
-        public void colorCode()
+        public override void colorCode()
         {
             Console.WriteLine("This is the color blue.");
         }
@@ -36,7 +36,7 @@ namespace colorProgram
     public class Program
     {
         public string FinalOutput;
-        public static void Main()
+        public virtual void Main()
         {
             Color myColor = new Color();
             myColor.colorCode();
