@@ -36,7 +36,7 @@ namespace colorProgram
     public class Program
     {
         public string FinalOutput;
-        public virtual void Main()
+        public static void Main(string[] args)
         {
             Color myColor = new Color();
             myColor.colorCode();
