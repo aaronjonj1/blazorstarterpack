@@ -40,10 +40,16 @@ namespace colorProgram
         {
             Color myColor = new Color();
             myColor.colorCode();
-       
+        }
+
+        public static void Red()
+        {
             Color myRed = new Red();
             myRed.colorCode();
-        
+        }
+
+        public static void Blue()
+        { 
             Color myBlue = new Blue();
             myBlue.colorCode();
         }
