@@ -1,0 +1,50 @@
+﻿@page "/criminal"
+
+<h3>Criminal Database</h3>
+
+<table class="table">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Height</th>
+        <th>Weight</th>
+        <th>Crime</th>
+    </tr>
+    @foreach (var criminal in criminals)
+            {
+<tr>
+    <td><a href="/criminal" class="nav-link">@criminal.firstName</a></td>
+    <td>@criminal.lastName</td>
+    <td>@criminal.age</td>
+    <td>@criminal.gender</td>
+    <td>@criminal.height</td>
+    <td>@criminal.weight</td>
+    <td>@criminal.crime</td>
+</tr>
+            }
+
+</table>
+
+@code {
+    [Parameter]
+    public string firstName { get; set; }
+    public string lastName { get; set; }
+    public int age { get; set; }
+    public string gender { get; set; }
+    public string height { get; set; }
+    public int weight { get; set; }
+    public string crime { get; set; }
+
+    private List<Criminal> criminals;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        criminals = new List<Criminal>();
+        criminals.Add(new Criminal { firstName = "Peter", lastName = "Edwards", age = 28, gender = "Male", height = "5'8", weight = 160, crime = "Grand Theft Auto" });
+        criminals.Add(new Criminal { firstName = "Lisa", lastName = "Martinez", age = 41, gender = "Female", height = "5'2", weight = 125, crime = "DUI" });
+    }
+}
