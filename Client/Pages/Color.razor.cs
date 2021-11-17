@@ -1,11 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 using BlazorApp;
 using BlazorApp.Shared;
-using System.IO;
-using System.Text.Encodings.Web;
-using static System.Console;
-using static System.Text.Encodings.Web.HtmlEncoder;
-using System;
 
 namespace colorsProgram
 {
