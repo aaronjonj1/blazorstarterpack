@@ -23,14 +23,17 @@ namespace colorsProgram
 
     }
 
-    public class Program : Color
+    public class Program : User
     {
 
         public static void Main()
         {
             Color myColor = new Color();
             myColor.colorCode();
+        }
 
+        public static void User()
+        {
             Color myUser = new User();
             myUser.colorCode();
         }
