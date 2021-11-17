@@ -28,10 +28,9 @@ namespace colorsProgram
 
     }
 
-    public class Program : ComponentBase
+    public class Program : Color
     {
-        public string userInput { get; set; }
-        public string finalOutput { get; set; }
+
         public static void Main()
         {
             Color myColor = new Color();
