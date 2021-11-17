@@ -1,0 +1,12 @@
+﻿@page "/inchescentimeters"
+
+@inherits centimetersProgram.Program
+
+<h1 style="color:black;">Inches to centimeters convert</h1>
+
+<input @bind="userInput " />
+
+<button class="btn btn-primary" style="background-color:red" @onclick="CentimetersCalculator"> Convert </button>
+
+<output> Output: @finalOutput centimeters </output>
+
