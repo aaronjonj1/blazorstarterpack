@@ -16,6 +16,8 @@ namespace colorsProgram
 
     public class User : Color
     {
+        public string finalOutput { get; set; }
+        public string userInput { get; set; }
         public override void colorCode()
         {
             finalOutput = "This is the color " + userInput + ".";
@@ -25,9 +27,11 @@ namespace colorsProgram
 
     public class Program : User
     {
+        public string finalOutput { get; set; }
+        public string userInput { get; set; }
         public static void User()
         {
-            Color myUser = new User();
+    Color myUser = new User();
             myUser.colorCode();
         }
 
