@@ -2,34 +2,31 @@
 
 <h3>Criminal Database</h3>
 
-<table class="sortable">
-        <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Age</th>
-            <th>Gender</th>
-            <th>Race</th>
-            <th>Height</th>
-            <th>Weight</th>
-            <th>Crime</th>
-        </tr>
-        @foreach (var criminal in criminals)
-        {
+<table class="table">
     <tr>
-        <td>@criminal.firstName</td>
-        <td>@criminal.lastName</td>
-        <td>@criminal.age</td>
-        <td>@criminal.gender</td>
-        <td>@criminal.race</td>
-        <td>@criminal.height</td>
-        <td>@criminal.weight lbs</td>
-        <td>@criminal.crime</td>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Height</th>
+        <th>Weight</th>
+        <th>Crime</th>
     </tr>
-
+    @foreach (var criminal in criminals)
+            {
+<tr>
+    <td>@criminal.firstName</td>
+    <td>@criminal.lastName</td>
+    <td>@criminal.age</td>
+    <td>@criminal.gender</td>
+    <td>@criminal.race</td>
+    <td>@criminal.height</td>
+    <td>@criminal.weight lbs</td>
+    <td>@criminal.crime</td>
+</tr>
             }
-        
 
-    </table>
+</table>
 
 @code {
     [Parameter]
