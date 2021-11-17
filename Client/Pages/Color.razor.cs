@@ -31,7 +31,7 @@ namespace colorsProgram
         public string userInput { get; set; }
         public static void User()
         {
-    Color myUser = new User();
+            Color myUser = new User();
             myUser.colorCode();
         }
 
