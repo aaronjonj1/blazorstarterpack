@@ -1,7 +1,16 @@
 ﻿@page "/color"
 
-@inherits colorProgram.Program
+@inherits colorsProgram.Program
 
 <h1 style="color:black;">Color Coding</h1>
 
-<button @onclick="Main">Click me</button>
+<input @bind="userInput " />
+
+<button class="btn btn-primary" style="background-color:red" @onclick="Main">Generate Output</button>
+
+<p>Output: @finalOutput </p>
+
+@code
+{
+    
+}

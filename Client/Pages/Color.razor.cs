@@ -7,54 +7,39 @@ using static System.Console;
 using static System.Text.Encodings.Web.HtmlEncoder;
 using System;
 
-namespace colorProgram
+namespace colorsProgram
 {
     public class Color : ComponentBase
     {
+        public string finalOutput { get; set; }
+        public string userInput { get; set; }
         public virtual void colorCode()
         {
-            Console.WriteLine("This is a color.");
+            finalOutput = "This is a color.";
         }
     }
 
-    public class Red : Color
+    public class User : Color
     {
         public override void colorCode()
         {
-            Console.WriteLine("This is the color red.");
+            finalOutput = "This is the color " + userInput + ".";
         }
-    }
 
-    public class Blue : Color
-    {
-        public override void colorCode()
-        {
-            Console.WriteLine("This is the color blue.");
-        }
     }
 
     public class Program : ComponentBase
     {
-        public string FinalOutput;
+        public string userInput { get; set; }
+        public string finalOutput { get; set; }
         public static void Main()
         {
             Color myColor = new Color();
             myColor.colorCode();
+
+            Color myUser = new User();
+            myUser.colorCode();
         }
 
-        public static void Red()
-        {
-            Color myRed = new Red();
-            myRed.colorCode();
-        }
-
-        public static void Blue()
-        { 
-            Color myBlue = new Blue();
-            myBlue.colorCode();
-        }
-
-            
-        
     }
 }
