@@ -10,26 +10,28 @@ namespace colorsProgram
         public string finalOutput { get; set; }
         public virtual void colorCode()
         {
+            userInput = "";
             finalOutput = "This is a color.";
         }
     }
 
-    public class User : Color
+    public class Red : Color
     {
 
         public override void colorCode()
         {
+            userInput = "red";
             finalOutput = "This is the color " + userInput + ".";
         }
 
     }
 
-    public class Program : User
+    public class Program : Red
     {
-        public static void User()
+        public static void Red()
         {
-            Color myUser = new User();
-            myUser.colorCode();
+            Color myRed = new Red();
+            myRed.colorCode();
         }
 
     }
