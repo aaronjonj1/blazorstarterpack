@@ -2,7 +2,7 @@
 
 <h3>Criminal Database</h3>
 
-<table class="searchable sortable">
+<table class="sortable">
     <thead>
         <tr>
             <th>First Name</th>
@@ -15,24 +15,25 @@
             <th>Crime</th>
         </tr>
     </thead>
-    <tbody>
         @foreach (var criminal in criminals)
         {
-            <tr>
-                <td>@criminal.firstName</td>
-                <td>@criminal.lastName</td>
-                <td>@criminal.age</td>
-                <td>@criminal.gender</td>
-                <td>@criminal.race</td>
-                <td>@criminal.height</td>
-                <td>@criminal.weight lbs</td>
-                <td>@criminal.crime</td>
-            </tr>
+        
+<tbody>
+    <tr>
+        <td>@criminal.firstName</td>
+        <td>@criminal.lastName</td>
+        <td>@criminal.age</td>
+        <td>@criminal.gender</td>
+        <td>@criminal.race</td>
+        <td>@criminal.height</td>
+        <td>@criminal.weight lbs</td>
+        <td>@criminal.crime</td>
+    </tr>
+</tbody>
+            }
+        
 
-        }
-    </tbody>
-
-</table>
+    </table>
 
 @code {
     [Parameter]
