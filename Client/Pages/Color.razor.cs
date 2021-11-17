@@ -7,9 +7,10 @@ namespace colorsProgram
     public class Color : ComponentBase
     {
         public string userInput { get; set; }
+        public string finalOutput { get; set; }
         public virtual void colorCode()
         {
-            string finalOutput = "This is a color.";
+            finalOutput = "This is a color.";
         }
     }
 
@@ -18,7 +19,7 @@ namespace colorsProgram
 
         public override void colorCode()
         {
-            string finalOutput = "This is the color " + userInput + ".";
+            finalOutput = "This is the color " + userInput + ".";
         }
 
     }
