@@ -13,7 +13,17 @@ Fetch Data: Receives weather forecast data from a server.
 <br />
 Todo: A basic todo list that users can customize and edit.
 <br />
-IPO: An input output feature where the user inserts a number and the output number is doubled. More types of IPOs may be implemented as well in the future.
+Calculator: A calculator tool where a user can insert two numbers and then choose whether they would like to add, subtract, multiply, or divide the numbers.
+<br />
+IPO Calculator: An input output feature where the user inserts a number and then they can decide whether it can be doubled, tripled, squared, or cubed.
+<br />
+BMI Calculator: A calculator that calculates your BMI based on your height in feet and inches and your weight in pounds.
+<br />
+Car Database: An example of a used car dealership database displaying information of the cars that are for sale.
+<br />
+Criminal Database: An example of a list of criminals which displays their basic information as long as the crimes on their records.
+<br />
+Inches to Centimeters: A calculator where the user puts a number displayed in inches and then converts the output to centimeters.
 <br />
 There will be more features to come along as well but it's still a work in development.
 
