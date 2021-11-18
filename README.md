@@ -39,8 +39,10 @@ There will be more features to come along as well but it's still a work in devel
 <br />
 11/01 Made some edits to the BMI Calculator and implemented a table guide.
 <br />
+11/17 Added a Criminal List Database and a Inches to Centimeters converter.
 
 # Milestone 1: Please check Car.razor.cs and Car.razor for the requirements given.
+# Milestone 2: Please check Criminal.razor, InchesCentimeters.razor.cs, and InchesCentimeters.razor for the requirements given.
 
 # Website Link
 https://mango-beach-0ae2a360f.azurestaticapps.net/
