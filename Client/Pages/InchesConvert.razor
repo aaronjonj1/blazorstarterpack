@@ -1,0 +1,21 @@
+﻿@page "/inchesconvert"
+
+@inherits inchesProgram.Program
+
+<h1 style="color:black;">Inches Converter</h1>
+
+<br />
+
+<input @bind="userInput" /> inches
+
+<br />
+
+<button class="btn btn-primary" style="background-color:limegreen" @onclick="Calculator"> Convert </button>
+
+<br />
+<br />
+
+<output> Centimeters: @finalCentimeters centimeters </output>
+<output> Centimeters: @finalFeet feet </output>
+<output> Centimeters: @finalMiles miles </output>
+
