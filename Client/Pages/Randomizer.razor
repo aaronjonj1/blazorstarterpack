@@ -28,11 +28,11 @@
 {
         //Inputs and Outputs
 
-    private int InputString { get; set; } //first input, should be <= than the second input
+    private int InputString { get; set; } //first input, should be <= (less than or equal to) the second input
 
     private int InputString2 { get; set; } //second input
 
-    private string OutputString { get; set; }
+    private string OutputString { get; set; } //output
 
 
     //Randomizer Calculator
@@ -44,14 +44,14 @@
 
         Random rd = new Random();
 
-        if (InputString > InputString2)
+        if (InputString > InputString2) //if first input is greater than the second
         {
             OutputString = "Invalid input. You cannot make the first number larger than the second. Please try again.";
         }
         else
         {
-            int randomnumber = rd.Next(InputString, InputString2);
-            OutputString = randomnumber.ToString();
+            int randomnumber = rd.Next(InputString, 1+InputString2); //int new variable to store random number
+            OutputString = randomnumber.ToString(); //convert int to string
         }
 
     }
