@@ -25,6 +25,11 @@ Criminal Database: An example of a list of criminals which displays their basic 
 <br />
 Inches to Centimeters: A calculator where the user puts a number displayed in inches and then converts the output to centimeters.
 <br />
+Convert Inches: A calculator where the user puts a number displayed in inches and then converts it to a unit that is provided.
+<br />
+Randomizer: A calculator that randomizes a value from a lower and upper value.
+
+A lot of my tools that I use on this website have a good amount of user interaction with it, so have fun playing around with it.
 There will be more features to come along as well but it's still a work in development.
 
 # Milestones
@@ -50,6 +55,8 @@ There will be more features to come along as well but it's still a work in devel
 11/01 Made some edits to the BMI Calculator and implemented a table guide.
 <br />
 11/17 Added a Criminal List Database and a Inches to Centimeters converter.
+<br />
+11/22 Added a randomizer calculator.
 
 # Milestone 1: Please check Car.razor.cs and Car.razor for the requirements given.
 # Milestone 2: Please check Criminal.razor, InchesCentimeters.razor.cs, and InchesCentimeters.razor for the requirements given.
