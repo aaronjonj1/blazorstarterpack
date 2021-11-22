@@ -1,0 +1,52 @@
+@page "/randomizer"
+
+<h1>Randomizer</h1>
+
+<p>Min value </p>
+
+<input @bind="InputString " />
+
+<br />
+
+<p>Max value </p>
+
+<input @bind="InputString2 " />
+
+<br />
+
+<br />
+
+<button class="btn btn-primary" style="background-color:red" @onclick="Random">Random</button>
+
+
+<br />
+
+<p>Output: @OutputString </p>
+
+@code
+
+{
+    //Inputs and Outputs
+
+    private int InputString { get; set; }
+
+    private int InputString2 { get; set; }
+
+    private int OutputString { get; set; }
+
+
+    //Randomizer Calculator
+
+
+    private void Random()
+
+    {
+
+        Random rd = new Random();
+        OutputString = rd.Next(InputString, InputString2);
+
+    }
+
+
+
+}
