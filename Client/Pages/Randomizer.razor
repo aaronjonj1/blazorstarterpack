@@ -32,7 +32,7 @@
 
     private int InputString2 { get; set; } //second input
 
-    private int OutputString { get; set; }
+    private string OutputString { get; set; }
 
 
     //Randomizer Calculator
@@ -46,11 +46,12 @@
 
         if (InputString > InputString2)
         {
-            Console.WriteLine("Invalid input. You cannot make the first number larger than the second. Please try again.");
+            OutputString = "Invalid input. You cannot make the first number larger than the second. Please try again.";
         }
         else
         {
-            OutputString = rd.Next(InputString, InputString2);
+            int randomnumber = rd.Next(InputString, InputString2);
+            OutputString = randomnumber.ToString();
         }
 
     }
