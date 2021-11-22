@@ -29,6 +29,7 @@ namespace inchesProgram
     {
         public override void Calculator()
         {
+            //convert userInput in inches to either centimeters, feet, or miles
             finalCentimeters = userInput * Cmconvert;
             finalFeet = userInput / Ftconvert;
             finalMiles = userInput / Mileconvert;
@@ -38,6 +39,7 @@ namespace inchesProgram
 
     public class Program : User
     {
+        //final output
         private static void User()
         {
             Convert myInput = new Convert();
