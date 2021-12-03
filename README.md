@@ -62,7 +62,7 @@ There will be more features to come along as well but it's still a work in devel
 # Milestone 2: Please check Criminal.razor, InchesCentimeters.razor.cs, and InchesCentimeters.razor for the requirements given.
 
 # Sources used to help with my coding:
-https://www.w3schools.com/
+https://www.w3schools.com/ Used for multiple things such as HTML and C#
 <br />
 https://www.tutorialspoint.com/Random-Numbers-in-Chash
 <br />
