@@ -61,5 +61,14 @@ There will be more features to come along as well but it's still a work in devel
 # Milestone 1: Please check Car.razor.cs and Car.razor for the requirements given.
 # Milestone 2: Please check Criminal.razor, InchesCentimeters.razor.cs, and InchesCentimeters.razor for the requirements given.
 
+# Sources used to help with my coding:
+https://www.w3schools.com/ Used for multiple things such as HTML and C#
+<br />
+https://www.tutorialspoint.com/Random-Numbers-in-Chash
+<br />
+https://www.learmoreseekmore.com/2020/06/blazor-paratial-class-or-componentbase-class.html
+<br />
+https://www.youtube.com/watch?v=4G_BzLxa9Nw
+
 # Website Link
 https://mango-beach-0ae2a360f.azurestaticapps.net/
