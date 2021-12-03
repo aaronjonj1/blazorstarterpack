@@ -62,13 +62,13 @@ There will be more features to come along as well but it's still a work in devel
 # Milestone 2: Please check Criminal.razor, InchesCentimeters.razor.cs, and InchesCentimeters.razor for the requirements given.
 
 # Sources used to help with my coding:
-w3schools.com
+https://www.w3schools.com/
 <br />
-tutorialspoint.com
+https://tutorialspoint.com
 <br />
-www.learmoreseekmore.com/2020/06/blazor-paratial-class-or-componentbase-class.html
+https://www.learmoreseekmore.com/2020/06/blazor-paratial-class-or-componentbase-class.html
 <br />
-www.youtube.com/watch?v=4G_BzLxa9Nw
+https://www.youtube.com/watch?v=4G_BzLxa9Nw
 
 # Website Link
 https://mango-beach-0ae2a360f.azurestaticapps.net/
