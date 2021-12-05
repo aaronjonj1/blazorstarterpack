@@ -6,6 +6,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace BlazorApp.Client
 {
+    /// <summary>
+    /// Program setup
+    /// </summary>
     public class Program
     {
         public static async Task Main(string[] args)

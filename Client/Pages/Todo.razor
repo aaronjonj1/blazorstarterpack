@@ -16,9 +16,20 @@
 <button @onclick="AddTodo">Add todo</button>
 
 @code {
+
+    /// <summary>
+    /// Create Todo List
+    /// </summary>
     private List<TodoItem> todos = new();
+
+    /// <summary>
+    /// new string
+    /// </summary>
     private string newTodo;
 
+    /// <summary>
+    /// void function for the todo list
+    /// </summary>
     private void AddTodo()
     {
         if (!string.IsNullOrWhiteSpace(newTodo))

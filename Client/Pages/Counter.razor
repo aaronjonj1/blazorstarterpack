@@ -7,11 +7,22 @@
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
+
+    /// <summary>
+    /// counter
+    /// </summary>
     private int currentCount = 0;
 
     [Parameter]
+
+    ///<summary>
+    /// Counter gets incremented by the listed amount
+    /// </summary>
     public int IncrementAmount { get; set; } = 1;
 
+    /// <summary>
+    /// Calculation for the counter
+    /// </summary>
     private void IncrementCount()
     {
         currentCount += IncrementAmount;

@@ -4,6 +4,10 @@ using BlazorApp.Shared;
 
 namespace inchesProgram
 {
+
+    /// <summary>
+    /// Convert Class
+    /// </summary>
     public class Convert : ComponentBase
     {
         public double finalCentimeters { get; set; }
@@ -17,16 +21,25 @@ namespace inchesProgram
 
         public double Mileconvert = 63360; //conversion factor to convert inches to miles
 
+        /// <summary>
+        /// Virtual Calculator
+        /// </summary>
         public virtual void Calculator()
         {
-            finalCentimeters = 0; //The default value of the page before an input is accepted.
+            finalCentimeters = 0;
             finalFeet = 0;
             finalMiles = 0;
         }
     }
-
+    
+    /// <summary>
+    /// User class that overrides the virtual function
+    /// </summary>
     public class User : Convert
     {
+        /// <summary>
+        /// Overide Calculator
+        /// </summary>
         public override void Calculator()
         {
             //convert userInput in inches to either centimeters, feet, or miles
@@ -37,9 +50,14 @@ namespace inchesProgram
 
     }
 
+    /// <summary>
+    /// Final Program Class
+    /// </summary>
     public class Program : User
     {
-        //final output
+        /// <summary>
+        /// Output
+        /// </summary>
         private static void User()
         {
             Convert myInput = new Convert();

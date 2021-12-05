@@ -58,34 +58,75 @@
         </tr>
     </table>
 
-
     @code
 
 {
-        //Inputs and Outputs
 
+
+
+        /// <summary>
+        /// User inputs the height in feet
+        /// </summary>
         private string InputFeet { get; set; }
 
+        /// <summary>
+        /// User inputs the remainder height in inches
+        /// </summary>
         private string InputInches { get; set; }
 
+        /// <summary>
+        /// User inputs the weight in pounds
+        /// </summary>
         private string InputPounds { get; set; }
 
+        /// <summary>
+        /// Stores BMI value
+        /// </summary>
         private string OutputString { get; set; }
 
+        /// <summary>
+        /// Stores BMI class group
+        /// </summary>
         private string OutputClass { get; set; }
 
         //BMI Calculator
+        /// <summary>
+        /// Calculates the BMI score
+        /// </summary>
 
         private void DoBMI()
 
         {
             //variables
-            double numF = double.Parse(InputFeet); //input feet
-            double numI = double.Parse(InputInches); //input inches
-            double numP = double.Parse(InputPounds); //input pounds
-            double numFI; //combine feet and inches to just inches
-            double BMI; //calculate BMI score
-            double Conversion = 703; //the conversion factor number
+            /// <summary>
+            /// feet
+            /// </summary>
+            double numF = double.Parse(InputFeet);
+
+            /// <summary>
+            /// inches
+            /// </summary>
+            double numI = double.Parse(InputInches);
+
+            /// <summary>
+            /// pounds
+            /// </summary>
+            double numP = double.Parse(InputPounds);
+
+            /// <summary>
+            /// combine feet and inches
+            /// </summary>
+            double numFI;
+
+            /// <summary>
+            /// BMI score
+            /// </summary>
+            double BMI;
+
+            /// <summary>
+            /// Conversion factor
+            /// </summary>
+            double Conversion = 703;
 
 
             numFI = (numF * 12) + numI; //Inches = (feet * 12) + inches      e.g. This person in the example is 5'9". (5*12) + 9 = 69

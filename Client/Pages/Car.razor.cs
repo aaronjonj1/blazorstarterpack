@@ -6,34 +6,101 @@ namespace carProgram
 {
 
     //main class (the parent class)
+
+    ///<summary>
+    ///Main Car Class
+    ///</summary>
     public class DoCar : ComponentBase
     {
-
+        ///<summary>
+        ///Car make
+        ///</summary>
         public string make; //car make
+
+        ///<summary>
+        ///Car model
+        ///</summary>
         public string model; //car model
+
+        ///<summary>
+        ///Car color
+        ///</summary>
         public string color; //car color
+
+        ///<summary>
+        ///year
+        ///</summary>
         public int year; //car year
+
+        ///<summary>
+        ///Car price
+        ///</summary>
         public string price; //car price
+
+        ///<summary>
+        ///Car URL
+        ///</summary>
         public string URL; //car url
+
+        ///<summary>
+        ///Car mileage
+        ///</summary>
         public int mileage; //car mileage
+
+        ///<summary>
+        ///Car notes
+        ///</summary>
         public string notes; //car notes
 
-        //Outputs
+        ///<summary>
+        ///Output the car make
+        ///</summary>
         public string OutputMake { get; set; }
+
+        ///<summary>
+        ///Output the car model
+        ///</summary>
         public string OutputModel { get; set; }
+
+        ///<summary>
+        ///Output the car color
+        ///</summary>
         public string OutputColor { get; set; }
+
+        ///<summary>
+        ///Output the car year
+        ///</summary>
         public string OutputYear { get; set; }
+
+        ///<summary>
+        ///Output the car price
+        ///</summary>
         public string OutputPrice { get; set; }
+
+        ///<summary>
+        ///Output the car mileage
+        ///</summary>
         public string OutputMileage { get; set; }
+
+        ///<summary>
+        ///Output the car image
+        ///</summary>
         public string OutputURL { get; set; }
+
+        ///<summary>
+        ///Output the Notes
+        ///</summary>
         public string OutputNotes { get; set; }
     }
 
-    //sub class
-
-    //inherits the parent class making this a child class
+    ///<summary>
+    ///Sub car class that inherits the parent class
+    ///</summary>
     public class AllCars : DoCar
     {
+        ///<summary>
+        ///1st car
+        ///</summary>
         public void Car1()
 
         {
@@ -56,6 +123,9 @@ namespace carProgram
             OutputNotes = ToyotaCamry.notes.ToString();
         }
 
+        ///<summary>
+        ///2nd car
+        ///</summary>
         public void Car2()
 
         {
@@ -78,6 +148,9 @@ namespace carProgram
             OutputNotes = NissanAltima.notes.ToString();
         }
 
+        ///<summary>
+        ///3rd car
+        ///</summary>
         public void Car3()
 
         {
@@ -100,7 +173,10 @@ namespace carProgram
             OutputNotes = VWTiguan.notes.ToString();
         }
 
-         public void Car4()
+        ///<summary>
+        ///4th car
+        ///</summary>
+        public void Car4()
 
         {
             DoCar KiaRio = new DoCar();
@@ -122,6 +198,9 @@ namespace carProgram
             OutputNotes = KiaRio.notes.ToString();
         }
 
+        ///<summary>
+        ///5th car
+        ///</summary>
         public void Car5()
 
         {
@@ -144,6 +223,9 @@ namespace carProgram
             OutputNotes = FordTruck.notes.ToString();
         }
 
+        ///<summary>
+        ///6th car
+        ///</summary>
         public void Car6()
 
         {
@@ -166,6 +248,9 @@ namespace carProgram
             OutputNotes = PTCruiser.notes.ToString();
         }
 
+        ///<summary>
+        ///7th car
+        ///</summary>
         public void Car7()
 
         {
@@ -188,6 +273,9 @@ namespace carProgram
             OutputNotes = DodgeCharger.notes.ToString();
         }
 
+        ///<summary>
+        ///8th car
+        ///</summary>
         public void Car8()
 
         {

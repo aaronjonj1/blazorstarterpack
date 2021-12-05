@@ -33,6 +33,7 @@
 
 @code {
     [Parameter]
+
     public string firstName { get; set; }
     public string lastName { get; set; }
     public int age { get; set; }
@@ -43,13 +44,21 @@
     public string crime { get; set; }
     public string sentence { get; set; }
 
-    private List<Criminal> criminals; //Defining a list class
+    /// <summary>
+    /// Defining a list class for the criminal databse
+    /// </summary>
+    private List<Criminal> criminals;
 
+
+    /// <summary>
+    /// All data for the database
+    /// </summary>
     protected override void OnInitialized()
     {
         base.OnInitialized();
 
         //Criminal List shown
+
         criminals = new List<Criminal>();
         criminals.Add(new Criminal { firstName = "Gabriel", lastName = "Alvarez", age = 24, gender = "Male", race = "Hispanic", height = "5'8", weight = 140, crime = "Tax Evasion", sentence = "4 years"});
         criminals.Add(new Criminal { firstName = "Roger", lastName = "Branch", age = 46, gender = "Male", race = "White", height = "6'0", weight = 220, crime = "Sexual Assault", sentence = "12 years" });

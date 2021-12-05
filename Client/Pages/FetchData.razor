@@ -36,8 +36,16 @@ else
 }
 
 @code {
+    /// <summary>
+    /// get api
+    /// </summary>
     private WeatherForecast[] forecasts;
 
+
+    /// <summary>
+    /// get weather forecast data from api
+    /// </summary>
+    /// <returns></returns>
     protected override async Task OnInitializedAsync()
     {
       try
