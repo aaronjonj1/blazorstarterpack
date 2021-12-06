@@ -51,6 +51,7 @@ There will be more features to come along as well but it's still a work in devel
 10/23 Successfully implemented Used Car Dealership data with classes.
 <br />
 10/25 Updated the car data information so it would successfully implement requirements 1 and 2 for the project.
+<br />
 <b> 10/25 Milestone 1 Completed </b>
 <br />
 11/01 Made some edits to the BMI Calculator and implemented a table guide.
@@ -58,6 +59,7 @@ There will be more features to come along as well but it's still a work in devel
 11/17 Added a Criminal List Database and a Inches converter.
 <br />
 11/22 Added a randomizer calculator.
+<br />
 <b> 11/22 Milestone 2 Completed </b>
 <br />
 11/29 Added a coin flip feature.
