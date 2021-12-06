@@ -94,7 +94,6 @@ https://www.youtube.com/watch?v=4G_BzLxa9Nw Helped with understanding Blazor and
 https://www.sonarsource.com/csharp/ Demonstrates the quality and security
   <li>
 https://docs.godotengine.org/en/stable/getting_started/scripting/c_sharp/c_sharp_style_guide.html Demonstrates style/structure
-<li />
 </ul>
 
 # Website Link
