@@ -78,6 +78,10 @@ https://www.tutorialspoint.com/Random-Numbers-in-Chash
 https://www.learmoreseekmore.com/2020/06/blazor-paratial-class-or-componentbase-class.html
 <br />
 https://www.youtube.com/watch?v=4G_BzLxa9Nw
+<br />
+https://www.sonarsource.com/csharp/ Demonstrates the quality and security
+<br />
+https://docs.godotengine.org/en/stable/getting_started/scripting/c_sharp/c_sharp_style_guide.html Demonstrates style/structure
 
 # Website Link
 https://mango-beach-0ae2a360f.azurestaticapps.net/
