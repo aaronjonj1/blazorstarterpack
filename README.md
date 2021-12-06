@@ -81,17 +81,26 @@ Please check file Error List.png for the error list. There should be no errors o
 
 
 # Sources used to help with my coding:
+<ul>
+<li>
 https://www.w3schools.com/ Used for multiple things such as HTML and C#. The most useful source and I may have not been able to do this project without it because I am new to those programs, especially HTML.
-<br />
+<li />
+ <li> 
 https://www.tutorialspoint.com/Random-Numbers-in-Chash Helped with the randomizer and coin flip
-<br />
+<li />
+  <li>
 https://www.learmoreseekmore.com/2020/06/blazor-paratial-class-or-componentbase-class.html Helped with separating program into different types of header files
-<br />
+<li />
+  <li>
 https://www.youtube.com/watch?v=4G_BzLxa9Nw Helped with understanding Blazor and coming up with certain pages such as the Criminal Database
-<br />
+<li />
+  <li>
 https://www.sonarsource.com/csharp/ Demonstrates the quality and security
-<br />
+<li />
+  <li>
 https://docs.godotengine.org/en/stable/getting_started/scripting/c_sharp/c_sharp_style_guide.html Demonstrates style/structure
+<li />
+</ul>
 
 # Website Link
 https://mango-beach-0ae2a360f.azurestaticapps.net/
