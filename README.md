@@ -58,10 +58,16 @@ There will be more features to come along as well but it's still a work in devel
 <br />
 11/22 Added a randomizer calculator.
 
-# Milestone 1: Please check Car.razor.cs and Car.razor for the requirements given.
-# Milestone 2: Please check Criminal.razor, InchesCentimeters.razor.cs, and InchesCentimeters.razor for the requirements given.
+# Milestone 1: 
+Please check Car.razor.cs and Car.razor for the requirements given.
+# Milestone 2: 
+Please check Criminal.razor, InchesCentimeters.razor.cs, and InchesCentimeters.razor for the requirements given.
 
-# Learning Objectives: Please check comments in my files which should state the following objectives that were provided.
+# Learning Objectives: 
+Please check comments in my files which should state the following objectives that were provided.
+
+# Error Check
+Please check file Error List.png for the error list. There should be no errors or warnings.
 
 
 # Sources used to help with my coding:
