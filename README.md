@@ -66,7 +66,7 @@ Please check Criminal.razor, InchesCentimeters.razor.cs, and InchesCentimeters.r
 # Learning Objectives: 
 Please check comments in my files which should state the following objectives that were provided.
 
-# Error Check
+# Error Check:
 Please check file Error List.png for the error list. There should be no errors or warnings.
 
 
