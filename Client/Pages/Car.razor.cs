@@ -2,10 +2,12 @@ using Microsoft.AspNetCore.Components;
 using BlazorApp;
 using BlazorApp.Shared;
 
+
+/// <summary>
+/// LO1, LO2, LO4
+/// </summary>
 namespace carProgram
 {
-
-    //main class (the parent class)
 
     ///<summary>
     ///Main Car Class

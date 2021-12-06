@@ -6,7 +6,7 @@ namespace inchesProgram
 {
 
     /// <summary>
-    /// Convert Class
+    /// Convert Class, LO1, LO2, LO3, LO5
     /// </summary>
     public class Convert : ComponentBase
     {
