@@ -56,7 +56,7 @@ There will be more features to come along as well but it's still a work in devel
 <br />
 11/01 Made some edits to the BMI Calculator and implemented a table guide.
 <br />
-11/17 Added a Criminal List Database and a Inches converter.
+11/17 Added a Criminal List Database and a Inches Converter page.
 <br />
 11/22 Added a randomizer calculator.
 <br />
