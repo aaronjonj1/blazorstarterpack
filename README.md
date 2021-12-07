@@ -28,6 +28,8 @@ Inches to Centimeters: A calculator where the user puts a number displayed in in
 Convert Inches: A calculator where the user puts a number displayed in inches and then converts it to a unit that is provided.
 <br />
 Randomizer: A calculator that randomizes a value from a lower and upper value.
+<br />
+Coin Flip: User presses a button that flips a coin which will randomly determine whether the result is heads or tails.
 
 A lot of my tools that I use on this website have a good amount of user interaction with it, so have fun playing around with it.
 
