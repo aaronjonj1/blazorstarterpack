@@ -1,10 +1,10 @@
 # Blazor Starter Application
 
-# Introduction
+# Introduction:
 
-Hello, my name is Aaron Jones and this is my Blazor website that I have created. This is also used for my COP 3003 project.
+Hello, my name is Aaron Jones and this is my Blazor website that I have created and is also my project for COP3003.
 
-# Features
+# Features:
 Home Page: Just a basic introduction to the website and all about me.
 <br />
 Counter: Counter included where when a user clicks a button, then the counter goes up by one. More types of counters may be implemented as well in the future.
@@ -30,9 +30,8 @@ Convert Inches: A calculator where the user puts a number displayed in inches an
 Randomizer: A calculator that randomizes a value from a lower and upper value.
 
 A lot of my tools that I use on this website have a good amount of user interaction with it, so have fun playing around with it.
-There will be more features to come along as well but it's still a work in development.
 
-# Milestones
+# Milestones:
 
 9/20 My Blazor application was born with a home page, counter, and a fetch data page.
 <br />
