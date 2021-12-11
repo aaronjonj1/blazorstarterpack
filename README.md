@@ -100,6 +100,9 @@ Please check comments in my files which should state the following objectives th
 # Error Check:
 Here is the image that displays the error list. There should be no errors or warnings present.
 ![Error List](https://user-images.githubusercontent.com/89741548/145693664-117f5999-0b8c-457b-af37-026b8488d857.png)
+  
+# Coding Example:
+  [Code Example File.pdf](https://github.com/aaronjonj1/blazorstarterpack/files/7697841/Code.Example.File.pdf)
 
 
 # Sources used to help with my coding:
