@@ -102,6 +102,7 @@ Here is the image that displays the error list. There should be no errors or war
 ![Error List](https://user-images.githubusercontent.com/89741548/145693664-117f5999-0b8c-457b-af37-026b8488d857.png)
   
 # Coding Example:
+  Here is the pdf that displays an example of code that I have wrote.
   [Code Example File.pdf](https://github.com/aaronjonj1/blazorstarterpack/files/7697841/Code.Example.File.pdf)
 
 
