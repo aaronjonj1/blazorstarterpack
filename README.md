@@ -90,13 +90,13 @@ A lot of my tools that I use on this website have a good amount of user interact
 12/08 Added all learning objectives into the comments.
 
 # Learning Objectives: 
-<li> Learning Objective 1: Car.razor.cs , InchesConvert.razor.cs
- <li> Learning Objective 2: Car.razor.cs, InchesConvert.razor.cs
-  <li> Learning Objective 3: FetchData.razor, InchesConvert.razor.cs
-   <li> Learning Objective 4: Car.razor.cs
-    <li> Learning Objective 5: FetchData.razor, InchesConvert.razor.cs
-     <li> Learning Objective 6: Criminal.razor, Todo.razor
-      <li> Learning Objective 7: Criminal.razor
+<li> <b> Learning Objective 1: </b> Car.razor.cs , InchesConvert.razor.cs
+<li> <b> Learning Objective 2: </b> Car.razor.cs, InchesConvert.razor.cs
+<li> <b> Learning Objective 3: </b> FetchData.razor, InchesConvert.razor.cs
+<li> <b> Learning Objective 4: </b> Car.razor.cs
+<li> <b> Learning Objective 5: </b> FetchData.razor, InchesConvert.razor.cs
+<li> <b> Learning Objective 6: </b> Criminal.razor, Todo.razor
+<li> <b> Learning Objective 7: </b> Criminal.razor
        These are also stated in my files.
 
 # Error Check:
