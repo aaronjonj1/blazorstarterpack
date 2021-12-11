@@ -4,6 +4,28 @@
 
 Hello, my name is Aaron Jones and this is my Blazor website that I have created and is also my project for my COP 3003 class.
 
+
+# Programs used:
+
+<ul>
+ Programming Languages:
+ <li>
+  C#
+ <li>
+  HTML
+  
+  <br>
+  
+  Software Used:
+ <li>
+  Visual Studio 2019
+ <li>
+  Microsoft Azure Portal
+ <li>
+  Github
+  
+  </ul>
+
 # Features:
 Home Page: Just a basic introduction to the website and all about me. Also includes some pictures.
 <br />
@@ -99,3 +121,11 @@ https://docs.godotengine.org/en/stable/getting_started/scripting/c_sharp/c_sharp
 
 # Website Link:
 https://mango-beach-0ae2a360f.azurestaticapps.net/
+
+# Special thanks to:
+<li>
+ My family and friends
+<li>
+ My classmates
+<li>
+ Professor Vanselow & the learning assistants
