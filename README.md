@@ -7,15 +7,12 @@ Hello, my name is Aaron Jones and this is my Blazor website that I have created 
 
 # Programs used:
 
-<ul>
  <b> Programming Languages: </b>
  <li>
   C#
  <li>
   HTML
-  </ul>
 
-<ul>
  <b> Software Used: </b>
  <li>
   Visual Studio 2019
@@ -23,7 +20,6 @@ Hello, my name is Aaron Jones and this is my Blazor website that I have created 
   Microsoft Azure Portal
  <li>
   Github
- <ul>
   
 
 # Features:
