@@ -89,11 +89,6 @@ A lot of my tools that I use on this website have a good amount of user interact
 <br />
 12/08 Added all learning objectives into the comments.
 
-# Milestone 1: 
-Please check Car.razor.cs and Car.razor for the requirements given.
-# Milestone 2: 
-Please check Criminal.razor, InchesCentimeters.razor.cs, and InchesCentimeters.razor for the requirements given.
-
 # Learning Objectives: 
 Please check comments in my files which should state the following objectives that were provided.
 
