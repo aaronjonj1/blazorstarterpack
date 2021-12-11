@@ -14,7 +14,6 @@ Hello, my name is Aaron Jones and this is my Blazor website that I have created 
  <li>
   HTML
   
-  <br>
   
   Software Used:
  <li>
