@@ -5,7 +5,7 @@
 Hello, my name is Aaron Jones and this is my Blazor website that I have created and is also my project for my COP 3003 class.
 
 # Features:
-Home Page: Just a basic introduction to the website and all about me.
+Home Page: Just a basic introduction to the website and all about me. Also includes some pictures.
 <br />
 Counter: Counter included where when a user clicks a button, then the counter goes up by one. More types of counters may be implemented as well in the future.
 <br />
