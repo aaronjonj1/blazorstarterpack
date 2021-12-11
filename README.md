@@ -8,7 +8,7 @@ Hello, my name is Aaron Jones and this is my Blazor website that I have created 
 # Programs used:
 
 <ul>
- Programming Languages:
+ <b> Programming Languages: </b>
  <li>
   C#
  <li>
@@ -16,7 +16,7 @@ Hello, my name is Aaron Jones and this is my Blazor website that I have created 
   </ul>
 
 <ul>
-  Software Used:
+ <b> Software Used: </b>
  <li>
   Visual Studio 2019
  <li>
