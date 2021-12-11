@@ -86,6 +86,8 @@ A lot of my tools that I use on this website have a good amount of user interact
 12/03 Successfully corrected errors.
 <br />
 12/05 Successfully added all XML comments.
+<br />
+12/08 Added all learning objectives into the comments.
 
 # Milestone 1: 
 Please check Car.razor.cs and Car.razor for the requirements given.
