@@ -90,7 +90,14 @@ A lot of my tools that I use on this website have a good amount of user interact
 12/08 Added all learning objectives into the comments.
 
 # Learning Objectives: 
-Please check comments in my files which should state the following objectives that were provided.
+<li> Learning Objective 1: Car.razor.cs , InchesConvert.razor.cs
+ <li> Learning Objective 2: Car.razor.cs, InchesConvert.razor.cs
+  <li> Learning Objective 3: FetchData.razor, InchesConvert.razor.cs
+   <li> Learning Objective 4: Car.razor.cs
+    <li> Learning Objective 5: FetchData.razor, InchesConvert.razor.cs
+     <li> Learning Objective 6: Criminal.razor, Todo.razor
+      <li> Learning Objective 7: Criminal.razor
+       These are also stated in my files.
 
 # Error Check:
 Here is the image that displays the error list. There should be no errors or warnings present.
