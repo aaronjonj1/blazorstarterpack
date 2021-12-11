@@ -7,14 +7,13 @@ Hello, my name is Aaron Jones and this is my Blazor website that I have created 
 
 # Programs used:
 
-<ul>
  Programming Languages:
  <li>
   C#
  <li>
   HTML
   
-  
+  <br>
   Software Used:
  <li>
   Visual Studio 2019
@@ -23,7 +22,6 @@ Hello, my name is Aaron Jones and this is my Blazor website that I have created 
  <li>
   Github
   
-  </ul>
 
 # Features:
 Home Page: Just a basic introduction to the website and all about me. Also includes some pictures.
