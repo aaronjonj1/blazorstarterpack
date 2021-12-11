@@ -97,7 +97,7 @@ A lot of my tools that I use on this website have a good amount of user interact
 <li> <b> Learning Objective 5: </b> FetchData.razor, InchesConvert.razor.cs
 <li> <b> Learning Objective 6: </b> Criminal.razor, Todo.razor
 <li> <b> Learning Objective 7: </b> Criminal.razor
-       These are also stated in my files.
+       <li> These are also stated in my files.
 
 # Error Check:
 Here is the image that displays the error list. There should be no errors or warnings present.
