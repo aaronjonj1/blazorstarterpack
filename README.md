@@ -2,7 +2,7 @@
 
 # Introduction:
 
-Hello, my name is Aaron Jones and this is my Blazor website that I have created and is also my project for COP3003.
+Hello, my name is Aaron Jones and this is my Blazor website that I have created and is also my project for my COP 3003 class.
 
 # Features:
 Home Page: Just a basic introduction to the website and all about me.
