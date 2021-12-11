@@ -96,7 +96,7 @@ Please check Criminal.razor, InchesCentimeters.razor.cs, and InchesCentimeters.r
 Please check comments in my files which should state the following objectives that were provided.
 
 # Error Check:
-Please check file Error List.png for the error list. There should be no errors or warnings.
+Here is the image that displays the error list. There should be no errors or warnings present.
 ![Error List](https://user-images.githubusercontent.com/89741548/145693664-117f5999-0b8c-457b-af37-026b8488d857.png)
 
 
