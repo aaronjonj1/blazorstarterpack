@@ -54,41 +54,46 @@ Criminal Database: An example of a list of criminals which displays their basic 
 
 # Milestones:
 
+ <li>
 9/20 My Blazor application was born with a home page, counter, and a fetch data page.
-<br />
+<li>
 9/27 Edited website by getting working URL, introduction, and IPO calculator.
-<br />
+<li>
 10/04 Added todo function on Blazor website and edited icons.
-<br />
+<li>
 10/11 My official project for COP 3003.
-<br />
+<li>
 10/16 Added addition, subtraction, multiplication, division, and squared calculators. Also edited certain text colors and added pictures.
-<br />
+<li>
 10/18 Combined additioin, subtraction, multiplication, and division calculators as one page. Moved squared calculator to IPO while also adding a double, triple, and cubed function. Edited button colors as well.
-<br />
+<li>
 10/19 Added a BMI calculator.
-<br />
+<li>
 10/23 Successfully implemented Used Car Dealership data with classes.
-<br />
+<li>
 10/25 Updated the car data information so it would successfully implement requirements 1 and 2 for the project.
-<br />
+<li>
 <b> 10/25 Milestone 1 Completed </b>
-<br />
+<li>
 11/01 Made some edits to the BMI Calculator and implemented a table guide.
-<br />
+<li>
 11/17 Added a Criminal List Database and a Inches Converter page.
-<br />
+<li>
 11/22 Added a randomizer calculator.
-<br />
+<li>
 <b> 11/22 Milestone 2 Completed </b>
-<br />
+<li>
 11/29 Added a coin flip feature.
-<br />
+<li>
 12/03 Successfully corrected errors.
-<br />
+<li>
 12/05 Successfully added all XML comments.
-<br />
+<li>
 12/08 Added all learning objectives into the comments.
+<li>
+12/12 Readme file is finalized.
+<li>
+ <b> 12/12 Project has been completed. </b>
 
 # Learning Objectives: 
 <li> <b> Learning Objective 1: </b> Car.razor.cs , InchesConvert.razor.cs
