@@ -28,7 +28,7 @@ If the text is bolded, then that means it has user interaction.
 
 <li>
 Home Page: Just a basic introduction to the website and all about me. Also includes some pictures.
-<br />
+<li>
 <b> Counter: </b> Counter included where when a user clicks a button, then the counter goes up by one. More types of counters may be implemented as well in the future.
 <li>
 Fetch Data: Receives weather forecast data from a server.
