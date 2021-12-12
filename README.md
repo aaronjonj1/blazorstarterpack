@@ -25,31 +25,30 @@ Hello, my name is Aaron Jones. This is my Blazor website that I have created and
 # Features:
 Home Page: Just a basic introduction to the website and all about me. Also includes some pictures.
 <br />
-Counter: Counter included where when a user clicks a button, then the counter goes up by one. More types of counters may be implemented as well in the future.
+Counter: Counter included where when a user clicks a button, then the counter goes up by one. More types of counters may be implemented as well in the future. *
 <br />
 Fetch Data: Receives weather forecast data from a server.
 <br />
-Todo: A basic todo list that users can customize and edit.
+Todo: A basic todo list that users can customize and edit. *
 <br />
-Calculator: A calculator tool where a user can insert two numbers and then choose whether they would like to add, subtract, multiply, or divide the numbers.
+Calculator: A calculator tool where a user can insert two numbers and then choose whether they would like to add, subtract, multiply, or divide the numbers. *
 <br />
-IPO Calculator: An input output feature where the user inserts a number and then they can decide whether it can be doubled, tripled, squared, or cubed.
+IPO Calculator: An input output feature where the user inserts a number and then they can decide whether it can be doubled, tripled, squared, or cubed. *
 <br />
-BMI Calculator: A calculator that calculates your BMI based on your height in feet and inches and your weight in pounds.
+BMI Calculator: A calculator that calculates your BMI based on your height in feet and inches and your weight in pounds. *
 <br />
-Car Database: An example of a used car dealership database displaying information of the cars that are for sale.
+Car Database: An example of a used car dealership database displaying information of the cars that are for sale. *
 <br />
 Criminal Database: An example of a list of criminals which displays their basic information as long as the crimes on their records.
 <br />
-Inches to Centimeters: A calculator where the user puts a number displayed in inches and then converts the output to centimeters.
+Convert Inches: A calculator where the user puts a number displayed in inches and then converts it to a unit that is provided. *
 <br />
-Convert Inches: A calculator where the user puts a number displayed in inches and then converts it to a unit that is provided.
+Randomizer: A calculator that randomizes a value from a lower and upper value. *
 <br />
-Randomizer: A calculator that randomizes a value from a lower and upper value.
-<br />
-Coin Flip: User presses a button that flips a coin which will randomly determine whether the result is heads or tails.
+Coin Flip: User presses a button that flips a coin which will randomly determine whether the result is heads or tails. *
 
-A lot of my tools that I use on this website have a good amount of user interaction with it, so have fun playing around with it.
+  <b> Legend: </b>
+* - user interaction
 
 # Milestones:
 
