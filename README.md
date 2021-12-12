@@ -2,7 +2,7 @@
 
 # Introduction:
 
-Hello, my name is Aaron Jones and this is my Blazor website that I have created and is also my project for my COP 3003 class.
+Hello, my name is Aaron Jones. This is my Blazor website that I have created and this is also my project for my COP 3003 class.
 
 
 # Programs used:
